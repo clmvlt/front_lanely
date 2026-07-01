@@ -12,6 +12,7 @@ import {
 import { Alert, AlertDescription } from "@/components/ui/alert"
 import { Button } from "@/components/ui/button"
 import { FormField } from "@/components/form-field"
+import { CompanyCodeQr } from "@/components/company-code-qr"
 import { imageUrl } from "@/lib/images"
 import { getErrorMessage, getFieldErrors } from "@/lib/api-error"
 import type { CompanyMembership } from "@/features/auth"
@@ -178,6 +179,10 @@ export function CompanySettingsCard({
             hint={t("company.settings.publicCodeHint")}
             disabled
             readOnly
+          />
+          <CompanyCodeQr
+            code={company.publicCode}
+            companyName={company.companyName}
           />
           {canManage && (
             <div>
