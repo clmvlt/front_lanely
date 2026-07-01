@@ -1,0 +1,1582 @@
+{
+  "app": {
+    "name": "Lanely"
+  },
+  "env": {
+    "dev": "Development",
+    "beta": "Beta",
+    "demo": "Demo",
+    "prod": "Production"
+  },
+  "language": {
+    "label": "Language"
+  },
+  "map": {
+    "empty": "No route to display yet.",
+    "unavailable": "Map temporarily unavailable.",
+    "pickerHint": "Click the map or drag the pin to set the point.",
+    "pickerEmpty": "Click the map to place the point.",
+    "plannerHint": "Click to add a point, right-click a point to remove it.",
+    "plannerEmpty": "Click the map or search an address to add a point."
+  },
+  "common": {
+    "loading": "Loading…",
+    "email": "Email",
+    "password": "Password",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "error": "Something went wrong",
+    "taxExcluded": "excl. tax",
+    "taxIncluded": "incl. tax",
+    "cancel": "Cancel",
+    "save": "Save",
+    "confirmPassword": "Confirm password",
+    "backHome": "Back to home",
+    "placeholders": {
+      "email": "you@company.com",
+      "password": "••••••••",
+      "firstName": "Jane",
+      "lastName": "Doe"
+    },
+    "edit": "Edit",
+    "done": "Done"
+  },
+  "auth": {
+    "loginTitle": "Sign in",
+    "loginSubtitle": "Access your Lanely account",
+    "loginSubmit": "Sign in",
+    "noAccount": "No account yet?",
+    "goRegister": "Create one",
+    "registerTitle": "Create your account",
+    "registerSubtitle": "Start using Lanely",
+    "registerSubmit": "Create account",
+    "hasAccount": "Already have an account?",
+    "goLogin": "Sign in",
+    "logout": "Sign out",
+    "passwordHint": "At least 8 characters",
+    "or": "or",
+    "continue": "Continue",
+    "googleCompleteTitle": "Complete your account",
+    "googleCompleteSubtitle": "Confirm your details to finish signing up with Google.",
+    "googleExpired": "Your Google session expired. Please sign in with Google again.",
+    "googleRestart": "Back to sign in",
+    "passwordMismatch": "Passwords don't match",
+    "passwordStrength": {
+      "label": "Password strength",
+      "weak": "Weak",
+      "fair": "Fair",
+      "good": "Good",
+      "strong": "Strong"
+    },
+    "forgotLink": "Forgot password?",
+    "forgotPassword": {
+      "title": "Forgot your password?",
+      "subtitle": "Enter your email and we'll send you a reset link.",
+      "submit": "Send reset link",
+      "backToLogin": "Back to sign in",
+      "sentTitle": "Check your inbox",
+      "sentMessage": "If an account exists for this email, you'll receive a link to reset your password.",
+      "resend": "Resend link",
+      "resendIn": "Resend in {{seconds}}s"
+    },
+    "resetPassword": {
+      "title": "Set a new password",
+      "subtitle": "Choose a new password for your account.",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm new password",
+      "submit": "Reset password",
+      "success": "Password reset. Please sign in with your new password.",
+      "invalidTitle": "Invalid link",
+      "invalidMessage": "This password reset link is invalid or incomplete.",
+      "requestNewLink": "Request a new link"
+    }
+  },
+  "landing": {
+    "eyebrow": "Transport management, simplified",
+    "title": "Run your deliveries in real time",
+    "subtitle": "Lanely brings your fleet, shipments and teams into one clear, modern TMS, from pickup to proof of delivery.",
+    "getStarted": "Get started",
+    "signIn": "Sign in",
+    "goToApp": "Open the app",
+    "features": {
+      "tracking": {
+        "title": "Real-time tracking",
+        "desc": "Follow every shipment from pickup to delivery, live."
+      },
+      "deliveries": {
+        "title": "Delivery management",
+        "desc": "Plan, dispatch and confirm deliveries with proof."
+      },
+      "teams": {
+        "title": "Built for teams",
+        "desc": "Multiple companies, roles and permissions out of the box."
+      }
+    }
+  },
+  "verify": {
+    "title": "Email verification",
+    "verifying": "Verifying your email…",
+    "success": "Your email has been verified.",
+    "successHint": "You can now use all the features of your account.",
+    "redirecting": "Redirecting to the app…",
+    "errorTitle": "Verification failed",
+    "errorNotFound": "This verification link is invalid.",
+    "errorExpired": "This verification link has expired.",
+    "errorUsed": "This verification link has already been used.",
+    "missingToken": "This verification link is invalid or incomplete.",
+    "goToApp": "Go to the app",
+    "goToLogin": "Sign in",
+    "requiredTitle": "Verify your email to continue",
+    "requiredMessage": "We sent a verification link to {{email}}. Click it to activate your account, then come back here.",
+    "resend": "Resend email",
+    "resent": "Verification email sent. Check your inbox."
+  },
+  "invite": {
+    "title": "Join a company",
+    "missingCode": "This invitation link is invalid or incomplete.",
+    "loggedInPrompt": "You are signed in. Accept the invitation to join the company.",
+    "accept": "Accept invitation",
+    "newAccountPrompt": "Create an account to join the company.",
+    "haveAccount": "Already have an account? Sign in, then open the link again.",
+    "success": "You have joined {{company}}."
+  },
+  "nav": {
+    "company": "Company",
+    "companySettings": "Settings",
+    "companyMembers": "Members & profiles",
+    "companyClients": "Clients",
+    "menu": "Menu",
+    "companyVehicles": "Vehicles",
+    "companyWaybills": "Consignment notes",
+    "companyDock": "Dock",
+    "companyTours": "Tours",
+    "companyPricing": "Pricing"
+  },
+  "dashboard": {
+    "welcome": "Welcome, {{name}}",
+    "companies": "Your companies",
+    "noCompanies": "You are not a member of any company yet.",
+    "role": "Role",
+    "permissions": "{{count}} permission",
+    "permissions_other": "{{count}} permissions",
+    "createCompany": "Create a company",
+    "createCompanySubtitle": "Give your new company a name to get started.",
+    "createFromMenu": "Use the menu in the top-right corner to create your first company.",
+    "companyName": "Company name",
+    "create": "Create",
+    "subscriptionRequiredTitle": "Subscription required",
+    "subscriptionRequiredBody": "Your current plan does not allow creating a company. Upgrade your subscription to create and manage your own company.",
+    "joinHint": "You can still join an existing company. Ask an owner to invite you by email. Joining never requires a subscription.",
+    "upgrade": "Upgrade",
+    "upgradeSoon": "Upgrades aren't available yet. Contact us to get started."
+  },
+  "company": {
+    "roles": {
+      "OWNER": "Owner",
+      "MEMBER": "Member"
+    },
+    "settings": {
+      "title": "Company settings",
+      "description": "Manage your company's name and logo.",
+      "name": "Company name",
+      "publicCode": "Public code",
+      "publicCodeHint": "Drivers scan this code in the mobile app to link to your company.",
+      "changePicture": "Change logo",
+      "removePicture": "Remove",
+      "uploading": "Uploading…",
+      "saved": "Changes saved."
+    },
+    "legal": {
+      "title": "Legal & billing information",
+      "description": "Used on invoices and for billing. All fields are optional.",
+      "legalInfo": "Legal information",
+      "legalName": "Legal name",
+      "legalNamePlaceholder": "Speedy Delivery SAS",
+      "registrationNumber": "Registration number",
+      "registrationNumberPlaceholder": "552 100 554",
+      "vatNumber": "VAT number",
+      "vatNumberPlaceholder": "FR40552100554",
+      "legalForm": "Legal form",
+      "legalFormPlaceholder": "SAS, Ltd, GmbH…",
+      "billingAddress": "Billing address",
+      "line1": "Address",
+      "line1Placeholder": "12 Rue de Rivoli",
+      "line2": "Address line 2",
+      "line2Placeholder": "Building A, 3rd floor",
+      "postalCode": "Postal code",
+      "postalCodePlaceholder": "75001",
+      "city": "City",
+      "cityPlaceholder": "Paris",
+      "state": "State / region",
+      "statePlaceholder": "Île-de-France",
+      "country": "Country",
+      "billingContact": "Billing contact",
+      "billingEmail": "Billing email",
+      "billingEmailPlaceholder": "billing@company.com",
+      "billingPhone": "Billing phone",
+      "billingPhonePlaceholder": "+33123456789",
+      "billingPhoneHint": "International format recommended, e.g. +33123456789.",
+      "saved": "Changes saved."
+    },
+    "deposit": {
+      "title": "Deposit (warehouse) address",
+      "description": "Where your tours start and end. Search an address, then drop or drag the pin to set the exact GPS point. All fields are optional.",
+      "search": "Search an address",
+      "searchPlaceholder": "12 Rue de Rivoli, Paris",
+      "address": "Address",
+      "line1": "Address",
+      "line1Placeholder": "12 Rue de Rivoli",
+      "line2": "Address line 2",
+      "line2Placeholder": "Building B, 3rd floor",
+      "postalCode": "Postal code",
+      "postalCodePlaceholder": "75001",
+      "city": "City",
+      "cityPlaceholder": "Paris",
+      "state": "State / region",
+      "statePlaceholder": "Île-de-France",
+      "country": "Country",
+      "location": "Location on the map",
+      "mapHint": "Click the map or drag the pin to set the point.",
+      "mapEmpty": "Search an address or click the map to place the deposit.",
+      "clear": "Clear deposit",
+      "saved": "Changes saved."
+    },
+    "members": {
+      "title": "Members",
+      "description": "People who belong to this company and their permissions.",
+      "allPermissions": "All permissions",
+      "editPermissions": "Edit permissions",
+      "editPermissionsFor": "Choose the permissions granted to {{name}}."
+    },
+    "profiles": {
+      "title": "Mobile profiles",
+      "description": "Mobile app identities for your drivers: a username and password, no email.",
+      "empty": "No mobile profiles yet.",
+      "active": "Active",
+      "inactive": "Inactive",
+      "create": "New profile",
+      "edit": "Edit",
+      "activate": "Activate",
+      "deactivate": "Deactivate",
+      "delete": "Delete",
+      "displayName": "Display name",
+      "displayNamePlaceholder": "John (morning shift)",
+      "username": "Username",
+      "usernamePlaceholder": "driver01",
+      "password": "Password",
+      "passwordEditHint": "Leave blank to keep the current password.",
+      "createTitle": "New mobile profile",
+      "createDescription": "Create a mobile identity drivers use to sign in to the app.",
+      "editTitle": "Edit mobile profile",
+      "editDescription": "Update the username, display name or password.",
+      "deleteTitle": "Delete profile?",
+      "deleteBody": "This permanently deletes {{name}} and revokes all its sessions. This can't be undone.",
+      "seats": {
+        "usage": "{{used}}/{{limit}} seats used",
+        "remaining": "{{count}} seat available",
+        "remaining_other": "{{count}} seats available",
+        "full": "All seats are in use. Upgrade your plan to add more profiles.",
+        "noPlan": "No active subscription. Choose a plan to add profiles.",
+        "manage": "Manage subscription"
+      }
+    },
+    "invitations": {
+      "title": "Invitations",
+      "description": "Invite people by email. They join as members once they accept, no subscription needed.",
+      "email": "Email address",
+      "invite": "Send invitation",
+      "empty": "No invitations yet.",
+      "expiresAt": "Expires {{date}}",
+      "copyLink": "Copy link",
+      "copied": "Copied",
+      "delete": "Delete",
+      "deleteTitle": "Delete invitation?",
+      "deleteBody": "This permanently deletes the invitation for {{email}}. If it's still pending, its join link stops working immediately.",
+      "deleteAcceptedNote": "This person has already joined. Deleting the invitation won't remove them from the company.",
+      "status": {
+        "PENDING": "Pending",
+        "ACCEPTED": "Accepted",
+        "EXPIRED": "Expired",
+        "REVOKED": "Revoked"
+      }
+    }
+  },
+  "clients": {
+    "title": "Clients",
+    "description": "Your customers: companies and individuals you deliver for.",
+    "new": "New client",
+    "searchPlaceholder": "Search by name, reference or email…",
+    "empty": "No clients yet.",
+    "noResults": "No clients match your search.",
+    "deliveryBlocked": "Delivery blocked",
+    "archive": "Archive",
+    "restore": "Restore",
+    "archiveTitle": "Archive client?",
+    "archiveBody": "{{name}} will be moved to the archive. You can restore it at any time.",
+    "delete": "Delete permanently",
+    "deleteTitle": "Delete client permanently?",
+    "deleteBody": "{{name}}, its addresses and contacts will be permanently deleted. This can't be undone. Waybills are kept without the client.",
+    "deleteArchiveFirst": "A client must be archived before it can be deleted.",
+    "filters": {
+      "status": "Status",
+      "sort": "Sort"
+    },
+    "status": {
+      "ACTIVE": "Active",
+      "ARCHIVED": "Archived"
+    },
+    "sort": {
+      "nameAsc": "Name (A-Z)",
+      "nameDesc": "Name (Z-A)",
+      "newest": "Newest first",
+      "oldest": "Oldest first"
+    },
+    "type": {
+      "COMPANY": "Company",
+      "INDIVIDUAL": "Individual"
+    },
+    "languages": {
+      "en": "English",
+      "fr": "French"
+    },
+    "addressType": {
+      "HEADQUARTERS": "Headquarters",
+      "DEPOT": "Depot",
+      "BILLING": "Billing",
+      "SHIPPING": "Shipping",
+      "OTHER": "Other"
+    },
+    "pagination": {
+      "loadingMore": "Loading more…",
+      "loaded": "{{loaded}} of {{total}} loaded"
+    },
+    "fields": {
+      "type": "Type",
+      "reference": "Reference",
+      "name": "Name",
+      "legalName": "Legal name",
+      "legalForm": "Legal form",
+      "registrationNumber": "Registration number",
+      "vatNumber": "VAT number",
+      "email": "Email",
+      "phone": "Phone",
+      "website": "Website",
+      "paymentTermsDays": "Payment terms (days)",
+      "billingEmail": "Billing email",
+      "accountManager": "Account manager",
+      "preferredLanguage": "Preferred language",
+      "autoSendInvoiceEmail": "Auto-send invoice emails",
+      "autoSendDeliveryNotifications": "Auto-send delivery notifications",
+      "autoSendPaymentReminders": "Auto-send payment reminders",
+      "deliveryBlocked": "Block deliveries",
+      "notes": "Notes"
+    },
+    "form": {
+      "createTitle": "New client",
+      "editTitle": "Edit client",
+      "createDescription": "Add a customer you deliver for.",
+      "editDescription": "Update this client's information.",
+      "identity": "Identity",
+      "contactInfo": "Contact details",
+      "billing": "Billing",
+      "accountManager": "Account manager",
+      "accountManagerNone": "None",
+      "preferences": "Preferences",
+      "notes": "Notes",
+      "create": "Create client",
+      "backToClient": "Back to client",
+      "referencePlaceholder": "Auto-generated if empty",
+      "namePlaceholder": "ACME Logistics",
+      "legalNamePlaceholder": "ACME Logistics Inc.",
+      "legalFormPlaceholder": "SAS, Ltd, GmbH…",
+      "registrationNumberPlaceholder": "552 100 554",
+      "vatNumberPlaceholder": "FR40552100554",
+      "phonePlaceholder": "+33123456789",
+      "websitePlaceholder": "https://acme.example",
+      "paymentTermsHint": "Between 0 and 365 days (default 30).",
+      "deliveryBlockedHint": "Prevents new deliveries from being assigned to this client.",
+      "notesPlaceholder": "Internal notes about this client…"
+    },
+    "detail": {
+      "general": "General information",
+      "generalDescription": "Identity, contact and billing details.",
+      "days": "{{count}} day",
+      "days_other": "{{count}} days",
+      "createdAt": "Created {{date}}",
+      "back": "Back to clients",
+      "edit": "Edit",
+      "waybills": "Consignment notes",
+      "notFound": "This client could not be found."
+    },
+    "addresses": {
+      "title": "Addresses",
+      "description": "Depots and locations used to plan deliveries.",
+      "create": "New address",
+      "empty": "No addresses yet.",
+      "draftHint": "Add delivery or billing locations. They will be created once the client is saved.",
+      "createTitle": "New address",
+      "editTitle": "Edit address",
+      "formDescription": "A delivery or billing location for this client.",
+      "label": "Label",
+      "labelPlaceholder": "North depot",
+      "type": "Type",
+      "countryDefault": "Company country (default)",
+      "location": "Location",
+      "locationHint": "Search an address to place the pin, or leave it empty to auto-calculate the GPS point from the postal address.",
+      "search": "Search an address",
+      "searchPlaceholder": "12 Rue de Rivoli, Paris",
+      "mapHint": "Click the map or drag the pin to set the exact point.",
+      "mapEmpty": "Search an address or click the map to place the point.",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "contactName": "Contact name",
+      "contactPhone": "Contact phone",
+      "contactEmail": "Contact email",
+      "deliveryInstructions": "Delivery instructions",
+      "deliveryInstructionsPlaceholder": "Ring at gate B, trucks under 12m.",
+      "isPrimary": "Primary address",
+      "isDefaultBilling": "Default billing address",
+      "isDefaultShipping": "Default shipping address",
+      "active": "Active",
+      "inactive": "Inactive",
+      "badgePrimary": "Primary",
+      "badgeBilling": "Billing",
+      "badgeShipping": "Shipping",
+      "viewOnMap": "View on map",
+      "delete": "Delete",
+      "deleteTitle": "Delete address?",
+      "deleteBody": "{{name}} will be permanently deleted. This can't be undone."
+    },
+    "contacts": {
+      "title": "Contacts",
+      "description": "People to reach at this client.",
+      "create": "New contact",
+      "empty": "No contacts yet.",
+      "draftHint": "Add people to reach for this client. They will be created once the client is saved.",
+      "createTitle": "New contact",
+      "editTitle": "Edit contact",
+      "formDescription": "A person to contact at this client.",
+      "jobTitle": "Job title",
+      "jobTitlePlaceholder": "Logistics manager",
+      "isPrimary": "Primary contact",
+      "receivesInvoices": "Receives invoices",
+      "receivesDeliveryNotifications": "Receives delivery notifications",
+      "active": "Active",
+      "inactive": "Inactive",
+      "badgePrimary": "Primary",
+      "badgeInvoices": "Invoices",
+      "badgeDeliveries": "Deliveries",
+      "unnamed": "Unnamed contact",
+      "delete": "Delete",
+      "deleteTitle": "Delete contact?",
+      "deleteBody": "{{name}} will be permanently deleted. This can't be undone."
+    }
+  },
+  "profile": {
+    "menu": "My profile",
+    "companies": "Companies",
+    "title": "My profile",
+    "subtitle": "Manage your account information and security.",
+    "picture": {
+      "title": "Profile picture",
+      "description": "PNG, JPEG, WEBP or GIF.",
+      "change": "Change picture",
+      "remove": "Remove",
+      "uploading": "Uploading…"
+    },
+    "info": {
+      "title": "Personal information",
+      "description": "Update your name. Your email address can't be changed.",
+      "emailHint": "Your email address can't be changed.",
+      "save": "Save changes",
+      "saved": "Your information has been updated."
+    },
+    "password": {
+      "title": "Change password",
+      "description": "For your security, all your other sessions will be signed out.",
+      "current": "Current password",
+      "new": "New password",
+      "confirm": "Confirm new password",
+      "save": "Update password",
+      "changed": "Your password has been updated."
+    },
+    "sessions": {
+      "title": "Active sessions",
+      "description": "Devices currently signed in to your account. Revoke any you don't recognize.",
+      "current": "This device",
+      "unknownDevice": "Unknown device",
+      "empty": "No active sessions.",
+      "loadError": "Couldn't load your sessions.",
+      "revoke": "Revoke",
+      "revoking": "Revoking…",
+      "revokeOthers": "Sign out other devices",
+      "signedIn": "Signed in on {{when}}",
+      "confirmTitle": "Revoke this session?",
+      "confirmDescription": "{{device}} will be signed out immediately.",
+      "currentWarning": "This is the device you're currently using. Revoking it will sign you out.",
+      "confirmOthersTitle": "Sign out other devices?",
+      "confirmOthersDescription": "Every session except this one will be signed out immediately."
+    }
+  },
+  "subscription": {
+    "nav": "Subscription",
+    "title": "Subscription",
+    "subtitle": "Choose the plan that fits your team.",
+    "loadError": "Couldn't load subscription plans.",
+    "perMonth": "/ month",
+    "taxExcluded": "excl. tax",
+    "taxIncluded": "incl. tax",
+    "currentPlan": "Current plan",
+    "choosePlan": "Choose this plan",
+    "limits": {
+      "companies": "{{count}} company",
+      "companies_other": "{{count}} companies",
+      "seats": "{{count}} seat / company",
+      "seats_other": "{{count}} seats / company"
+    },
+    "usage": {
+      "title": "Your usage",
+      "description": "How much of your subscription you're currently using.",
+      "none": "You don't have an active subscription yet. Pick a plan below to get started.",
+      "companies": "{{used}}/{{limit}} company",
+      "companies_other": "{{used}}/{{limit}} companies",
+      "seats": "{{used}}/{{limit}} seats ({{remaining}} remaining)"
+    },
+    "confirm": {
+      "title": "Switch to {{plan}}?",
+      "body": "Your subscription will be updated to the {{plan}} plan.",
+      "action": "Confirm"
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "back": "Back to home"
+  },
+  "update": {
+    "title": "A new version is available",
+    "description": "Reload to get the latest update.",
+    "reload": "Reload"
+  },
+  "home": {
+    "apiLabel": "API",
+    "apiMissing": "VITE_API_BASE_URL is not set",
+    "primaryAction": "Primary action",
+    "secondaryAction": "Secondary action",
+    "sections": {
+      "brand": "Brand",
+      "neutrals": "Neutrals",
+      "statuses": "Delivery statuses",
+      "semantic": "Semantic aliases"
+    }
+  },
+  "status": {
+    "pending": "Pending",
+    "collected": "Collected",
+    "dock": "At dock",
+    "transit": "Out for delivery",
+    "delivered": "Delivered",
+    "failed": "Incident / delay"
+  },
+  "vehicles": {
+    "title": "Vehicles",
+    "description": "Your fleet: trucks, vans and trailers you operate.",
+    "new": "New vehicle",
+    "searchPlaceholder": "Search by plate, make, model or VIN…",
+    "empty": "No vehicles yet.",
+    "noResults": "No vehicles match your search.",
+    "allTypes": "All types",
+    "allStatuses": "All statuses",
+    "mileageUnit": "km",
+    "noValue": "-",
+    "filters": {
+      "status": "Status",
+      "type": "Type",
+      "sort": "Sort"
+    },
+    "sort": {
+      "plateAsc": "Plate (A-Z)",
+      "plateDesc": "Plate (Z-A)",
+      "newest": "Newest first",
+      "oldest": "Oldest first",
+      "updated": "Recently updated"
+    },
+    "pagination": {
+      "loadingMore": "Loading more…",
+      "loaded": "{{loaded}} of {{total}} loaded"
+    },
+    "type": {
+      "TRUCK": "Truck",
+      "VAN": "Van",
+      "CAR": "Car",
+      "TRAILER": "Trailer",
+      "SEMI_TRAILER": "Semi-trailer",
+      "BUS": "Bus",
+      "OTHER": "Other"
+    },
+    "status": {
+      "ACTIVE": "Active",
+      "INACTIVE": "Inactive",
+      "SOLD": "Sold",
+      "OUT_OF_SERVICE": "Out of service",
+      "ARCHIVED": "Archived"
+    },
+    "fuel": {
+      "DIESEL": "Diesel",
+      "PETROL": "Petrol",
+      "ELECTRIC": "Electric",
+      "HYBRID": "Hybrid",
+      "PLUGIN_HYBRID": "Plug-in hybrid",
+      "LPG": "LPG",
+      "CNG": "CNG",
+      "HYDROGEN": "Hydrogen",
+      "OTHER": "Other"
+    },
+    "documentCategory": {
+      "REGISTRATION_CARD": "Registration card",
+      "INSURANCE": "Insurance",
+      "PHOTO": "Photo",
+      "OTHER": "Other"
+    },
+    "fields": {
+      "registrationPlate": "Registration plate",
+      "vehicleType": "Type",
+      "vin": "VIN",
+      "make": "Make",
+      "model": "Model",
+      "version": "Version",
+      "fuelType": "Fuel",
+      "firstRegistrationDate": "First registration",
+      "emissionClass": "Emission class",
+      "grossWeightKg": "Gross weight (kg)",
+      "payloadKg": "Payload (kg)",
+      "registrationCertificateNumber": "Registration certificate no.",
+      "technicalInspectionDate": "Technical inspection",
+      "roadTaxDueDate": "Road tax due",
+      "notes": "Notes",
+      "status": "Status",
+      "latestMileage": "Latest mileage",
+      "insurerName": "Insurer",
+      "policyNumber": "Policy number",
+      "coverageType": "Coverage type",
+      "insuranceStartDate": "Coverage start",
+      "insuranceEndDate": "Coverage end",
+      "insuranceContact": "Insurer contact"
+    },
+    "form": {
+      "createTitle": "New vehicle",
+      "editTitle": "Edit vehicle",
+      "createDescription": "Add a vehicle to your fleet.",
+      "editDescription": "Update this vehicle's information.",
+      "identification": "Identification",
+      "technical": "Technical",
+      "weights": "Weights",
+      "registration": "Registration document",
+      "insurance": "Insurance",
+      "regulatory": "Regulatory dates",
+      "notes": "Notes",
+      "create": "Create vehicle",
+      "none": "None",
+      "platePlaceholder": "AB-123-CD",
+      "vinPlaceholder": "VF1ABCDEF12345678",
+      "makePlaceholder": "Renault",
+      "modelPlaceholder": "Master",
+      "versionPlaceholder": "dCi 145 L3H2",
+      "emissionClassPlaceholder": "Euro 6, Crit'Air 1…",
+      "certificatePlaceholder": "Registration certificate number",
+      "insurerPlaceholder": "AXA, Allianz…",
+      "notesPlaceholder": "Internal notes about this vehicle…"
+    },
+    "detail": {
+      "back": "Back to vehicles",
+      "edit": "Edit",
+      "archive": "Archive",
+      "restore": "Restore",
+      "delete": "Delete",
+      "tabInfo": "Information",
+      "tabDocuments": "Documents",
+      "tabMileage": "Mileage",
+      "identification": "Identification",
+      "technical": "Technical specifications",
+      "weights": "Weights",
+      "registration": "Registration document",
+      "insurance": "Insurance",
+      "regulatory": "Regulatory dates",
+      "notes": "Notes",
+      "createdAt": "Created {{date}}",
+      "updatedAt": "Updated {{date}}",
+      "notFound": "This vehicle could not be found.",
+      "noInsurance": "No insurance information recorded.",
+      "latestMileageAt": "as of {{date}}",
+      "noMileage": "No mileage recorded yet."
+    },
+    "archiveTitle": "Archive vehicle?",
+    "archiveBody": "{{plate}} will be moved to the archive. You can restore it at any time.",
+    "deleteTitle": "Delete vehicle?",
+    "deleteBody": "{{plate}} and all its documents and mileage history will be permanently deleted. This can't be undone.",
+    "deleteAlternative": "Prefer archiving? You can restore an archived vehicle later.",
+    "delete": "Delete permanently",
+    "documents": {
+      "title": "Documents & photos",
+      "description": "Registration card, insurance, photos and other files.",
+      "allCategories": "All categories",
+      "upload": "Upload",
+      "uploadTitle": "Upload a document",
+      "uploadDescription": "PDF, PNG, JPEG or WEBP, up to 10 MB.",
+      "dropHint": "Drag & drop a file here, or",
+      "browse": "browse",
+      "selected": "Selected file",
+      "category": "Category",
+      "label": "Label (optional)",
+      "labelPlaceholder": "e.g. 2026 insurance certificate",
+      "empty": "No documents yet.",
+      "emptyCategory": "No documents in this category.",
+      "download": "Download",
+      "delete": "Delete",
+      "deleteTitle": "Delete document?",
+      "deleteBody": "{{name}} will be permanently deleted. This can't be undone.",
+      "uploadAction": "Upload document",
+      "uploadedOn": "Uploaded {{date}}",
+      "fileTooLarge": "File is too large (max 10 MB).",
+      "unsupportedType": "Unsupported file type (PDF, PNG, JPEG or WEBP only).",
+      "fileRequired": "Please choose a file.",
+      "preview": "Preview"
+    },
+    "mileage": {
+      "title": "Mileage history",
+      "description": "Odometer readings recorded over time.",
+      "add": "Add reading",
+      "addTitle": "Add a mileage reading",
+      "addDescription": "Back-dated and corrective entries are allowed. The latest reading by date sets the vehicle's current mileage.",
+      "value": "Mileage (km)",
+      "recordedAt": "Recorded at",
+      "note": "Note (optional)",
+      "notePlaceholder": "e.g. recorded during service",
+      "empty": "No mileage readings yet.",
+      "save": "Save reading",
+      "current": "Current",
+      "chartTitle": "Mileage over time",
+      "recordedBy": "by {{name}}",
+      "pagination": {
+        "loadingMore": "Loading more…",
+        "loaded": "{{loaded}} of {{total}} loaded"
+      }
+    }
+  },
+  "transport": {
+    "geocoding": {
+      "unavailable": "Address search is temporarily unavailable.",
+      "noResults": "No address found."
+    },
+    "routing": {
+      "unavailable": "Route service temporarily unavailable."
+    },
+    "map": {
+      "empty": "No route to display yet.",
+      "alt": "Route map"
+    },
+    "address": {
+      "search": "Search an address",
+      "searchPlaceholder": "Start typing an address…",
+      "coordsHint": "Pick a suggestion to set the exact location.",
+      "coordsSet": "Location set from the selected address.",
+      "none": "No address",
+      "addManual": "Enter address manually",
+      "editManual": "Edit address manually",
+      "manualTitle": "Address details"
+    },
+    "party": {
+      "searchClient": "Search a client…",
+      "noClients": "No client found.",
+      "clearClient": "Clear client"
+    },
+    "assign": {
+      "searchTour": "Search a tour…",
+      "noTours": "No tour found.",
+      "clearTour": "Clear tour",
+      "noProfile": "No driver",
+      "noVehicle": "No vehicle",
+      "groupProfiles": "Mobile drivers",
+      "groupMembers": "Team members"
+    },
+    "statusNote": {
+      "label": "Note (optional)",
+      "hint": "Recorded in the status history (anomaly, delivery issue, detail…)."
+    },
+    "statusBackward": {
+      "warning": "This moves the status backward. Make sure this is what you want before applying."
+    },
+    "history": {
+      "action": "History",
+      "title": "Status history",
+      "description": "Every status change, most recent first.",
+      "empty": "No status change recorded yet.",
+      "loadMore": "Load more",
+      "location": "{{lat}}, {{lon}}",
+      "actorType": {
+        "USER": "Web",
+        "PROFILE": "Driver"
+      }
+    }
+  },
+  "clientWaybills": {
+    "back": "Back to client",
+    "empty": "No consignment note for this client."
+  },
+  "goodsTypes": {
+    "title": "Goods type catalog",
+    "description": "Reusable goods types that power autocomplete when adding goods to a consignment note. Not linked to existing notes.",
+    "create": "New type",
+    "searchPlaceholder": "Search a goods type…",
+    "empty": "No goods type yet.",
+    "noResults": "No goods type matches your search.",
+    "loadMore": "Load more",
+    "loaded": "{{loaded}} of {{total}} loaded",
+    "dims": "Dimensions",
+    "delete": "Delete",
+    "deleteTitle": "Delete this goods type?",
+    "deleteBody": "Delete \"{{name}}\"? Existing consignment notes are not affected.",
+    "fields": {
+      "name": "Name",
+      "description": "Description"
+    },
+    "form": {
+      "createTitle": "New goods type",
+      "editTitle": "Edit goods type",
+      "description": "Default values pre-filled when this type is picked. Only the name is required.",
+      "create": "Create type"
+    }
+  },
+  "dock": {
+    "title": "Dock stock",
+    "description": "Goods currently sitting on your dock, awaiting redelivery.",
+    "empty": "No goods on the dock right now.",
+    "noResults": "No goods on the dock match your filters.",
+    "searchPlaceholder": "Search by reference or party…",
+    "loadMore": "Load more",
+    "enteredOn": "On dock since",
+    "summary": {
+      "waybills": "Notes on dock",
+      "packages": "Packages",
+      "weight": "Gross weight",
+      "volume": "Volume"
+    },
+    "dateFilter": {
+      "label": "On dock since",
+      "from": "From",
+      "to": "To",
+      "reset": "Clear dates"
+    },
+    "dwell": {
+      "since": "On dock for {{duration}}",
+      "stayed": "On dock {{duration}}",
+      "overdue": "Dormant stock: on the dock longer than expected.",
+      "days": "{{count}} day",
+      "days_other": "{{count}} days",
+      "hours": "{{count}} hr",
+      "hours_other": "{{count}} hrs",
+      "minutes": "{{count}} min",
+      "minutes_other": "{{count}} min"
+    }
+  },
+  "waybills": {
+    "title": "Consignment notes",
+    "description": "Manage your CMR / eCMR consignment notes.",
+    "new": "New note",
+    "searchPlaceholder": "Search by reference or party…",
+    "backToList": "Back to consignment notes",
+    "empty": "No consignment note yet.",
+    "noResults": "No consignment note matches your filters.",
+    "filters": {
+      "status": "Status",
+      "allStatuses": "All statuses",
+      "statusCount": "{{count}} status",
+      "statusCount_other": "{{count}} statuses",
+      "sort": "Sort",
+      "archived": "Archiving",
+      "archivedActive": "Active",
+      "archivedOnly": "Archived",
+      "archivedAll": "All"
+    },
+    "archivedBadge": "Archived",
+    "selection": {
+      "count": "{{count}} selected",
+      "count_other": "{{count}} selected",
+      "selectAll": "Select all",
+      "clear": "Clear selection",
+      "actions": "Actions"
+    },
+    "bulk": {
+      "changeStatus": "Change status",
+      "archive": "Archive",
+      "unarchive": "Unarchive",
+      "cancel": "Cancel",
+      "cancelConfirmTitle": "Cancel the selected waybills?",
+      "cancelConfirmBody": "{{count}} waybill will move to the Cancelled status. This cannot be undone.",
+      "cancelConfirmBody_other": "{{count}} waybills will move to the Cancelled status. This cannot be undone.",
+      "running": "Applying...",
+      "successAll": "{{count}} waybill updated.",
+      "successAll_other": "{{count}} waybills updated.",
+      "partial": "{{succeeded}} succeeded, {{failed}} failed.",
+      "errorsTitle": "Failures"
+    },
+    "view": {
+      "list": "List",
+      "map": "Map"
+    },
+    "dateFilter": {
+      "today": "Today",
+      "date": "Date",
+      "prevDay": "Previous day",
+      "nextDay": "Next day",
+      "reset": "Reset to today",
+      "pickup": "Pickup",
+      "delivery": "Delivery"
+    },
+    "map": {
+      "display": "Show",
+      "pickup": "Pickup",
+      "delivery": "Delivery",
+      "both": "Both",
+      "notLocated": "Not located",
+      "noPoints": "No located note for these filters."
+    },
+    "sort": {
+      "newest": "Newest first",
+      "oldest": "Oldest first",
+      "reference": "Reference",
+      "pickup": "Planned pickup",
+      "delivery": "Planned delivery"
+    },
+    "pagination": {
+      "loadingMore": "Loading more…",
+      "loaded": "{{loaded}} of {{total}} loaded"
+    },
+    "status": {
+      "DRAFT": "Draft",
+      "ISSUED": "Issued",
+      "COLLECTED": "Collected",
+      "AT_DOCK": "At dock",
+      "IN_TRANSIT": "In transit",
+      "DELIVERED": "Delivered",
+      "FAILED": "Failed",
+      "CANCELLED": "Cancelled"
+    },
+    "parcelStatus": {
+      "PENDING": "Pending",
+      "LOADED": "Loaded",
+      "AT_DOCK": "At dock",
+      "IN_TRANSIT": "In transit",
+      "DELIVERED": "Delivered",
+      "FAILED": "Failed",
+      "CANCELLED": "Cancelled"
+    },
+    "scope": {
+      "NATIONAL": "National",
+      "INTERNATIONAL": "International (CMR)"
+    },
+    "client": {
+      "title": "Ordering party",
+      "label": "Ordering party (client)",
+      "hint": "Client this transport is carried out for. Bears the carriage charges.",
+      "view": "View client"
+    },
+    "signatureMethod": {
+      "DRAWN": "Drawn",
+      "TYPED": "Typed",
+      "CLICKWRAP": "Clickwrap"
+    },
+    "fields": {
+      "reference": "Reference",
+      "scope": "Scope",
+      "shipper": "Shipper",
+      "consignee": "Consignee",
+      "notes": "Notes"
+    },
+    "parties": {
+      "shipper": "Shipper",
+      "consignee": "Consignee",
+      "carrier": "Carrier",
+      "mode": {
+        "client": "Existing client",
+        "free": "Free entry"
+      },
+      "client": "Client",
+      "clientAddress": "Client address",
+      "clientAddressNone": "No specific address",
+      "name": "Name",
+      "namePlaceholder": "Party name",
+      "contactName": "Contact name",
+      "contactPhone": "Contact phone",
+      "contactEmail": "Contact email",
+      "includeCarrier": "Add a carrier"
+    },
+    "places": {
+      "takingOver": "Place of taking over",
+      "delivery": "Place of delivery",
+      "mode": {
+        "free": "Free address",
+        "client": "Client"
+      },
+      "client": "Client",
+      "clientAddress": "Client address",
+      "clientAddressNone": "Pick an address",
+      "prefillFromClient": "Prefill from a client address",
+      "customAddress": "Custom address",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "gpsHint": "Optional. Leave empty to geocode the address, or set coordinates manually if it cannot be located.",
+      "plannedAt": "Planned",
+      "plannedAtTakingOver": "Pickup planned for",
+      "plannedAtDelivery": "Delivery planned for",
+      "actualAt": "Actual"
+    },
+    "goods": {
+      "title": "Goods",
+      "add": "Add goods",
+      "remove": "Remove",
+      "edit": "Edit",
+      "done": "Done",
+      "empty": "No goods added yet.",
+      "untitled": "Untitled goods",
+      "itemTitle": "Goods item",
+      "dangerousShort": "ADR",
+      "description": "Description",
+      "packagingType": "Packaging",
+      "numberOfPackages": "Packages",
+      "grossWeightKg": "Gross weight (kg)",
+      "volumeM3": "Volume (m³)",
+      "lengthCm": "Length (cm)",
+      "widthCm": "Width (cm)",
+      "heightCm": "Height (cm)",
+      "dimensions": "Dimensions",
+      "dangerousGoods": "Dangerous goods",
+      "unNumber": "UN number"
+    },
+    "cmr": {
+      "title": "CMR details",
+      "chargesAmount": "Carriage charges amount",
+      "chargesCurrency": "Currency",
+      "senderInstructions": "Sender instructions",
+      "reservations": "Reservations and observations",
+      "attachedDocuments": "Attached documents",
+      "autoPrice": "Auto price",
+      "autoPriceHint": "Computed from the tariff grid using the route distance, weight and stops. You can still edit it by hand.",
+      "autoPriceResult": "Computed from « {{tariff}} »."
+    },
+    "form": {
+      "createTitle": "New consignment note",
+      "editTitle": "Edit consignment note",
+      "createDescription": "Create a CMR / eCMR consignment note.",
+      "editDescription": "Editing is allowed in Draft and Issued statuses only.",
+      "referencePlaceholder": "Auto-generated if empty",
+      "geocodingHint": "An address could not be located. Set the GPS coordinates manually for the relevant place.",
+      "create": "Create note",
+      "back": "Back",
+      "next": "Next",
+      "steps": {
+        "parties": "Parties",
+        "places": "Places",
+        "order": "Ordering party",
+        "shipper": "Shipper",
+        "consignee": "Consignee",
+        "route": "Route",
+        "goods": "Goods",
+        "cmr": "CMR details"
+      }
+    },
+    "route": {
+      "title": "Route & schedule",
+      "description": "Round trip from your depot to the pickup, then the delivery, and back. Set the planned pickup or delivery time to see estimated arrivals and when to leave.",
+      "compute": "Calculate route",
+      "recompute": "Recalculate",
+      "schedule": "Schedule",
+      "depot": "Depot",
+      "leaveDepotAt": "Leave the depot at",
+      "noPlannedTimes": "Set a planned pickup or delivery time (in the previous steps) to estimate arrival and departure times.",
+      "anchoredOnDelivery": "Times are computed backwards from the planned delivery time.",
+      "onSchedule": "On track for the planned delivery time.",
+      "late": "Estimated {{duration}} after the planned delivery time.",
+      "ahead": "Estimated {{duration}} before the planned delivery time.",
+      "missing": {
+        "title": "Some locations are missing to compute the route:",
+        "depot": "Depot GPS coordinates",
+        "pickup": "Pickup location (shipper step)",
+        "delivery": "Delivery location (consignee step)",
+        "depotHint": "Set your depot GPS coordinates in the company settings (deposit address)."
+      },
+      "stops": {
+        "depotDeparture": "Departure from depot",
+        "pickup": "Pickup",
+        "delivery": "Delivery",
+        "depotReturn": "Return to depot"
+      }
+    },
+    "actions": {
+      "changeStatus": "Change status",
+      "more": "More actions",
+      "assign": "Assign",
+      "addSignature": "Add signature",
+      "cancel": "Cancel note"
+    },
+    "statusDialog": {
+      "title": "Change status",
+      "description": "Pick the new status for this consignment note.",
+      "target": "New status",
+      "choose": "Choose a status",
+      "failureReason": "Failure reason",
+      "confirm": "Apply"
+    },
+    "parcel": {
+      "actions": "Parcel actions",
+      "changeStatus": "Change status"
+    },
+    "parcelStatusDialog": {
+      "title": "Change parcel status",
+      "description": "Pick the new status for this parcel."
+    },
+    "history": {
+      "title": "Note status history"
+    },
+    "parcelHistory": {
+      "title": "Parcel status history"
+    },
+    "signatureDialog": {
+      "title": "Add a signature",
+      "description": "Record an eCMR signature.",
+      "role": "Role",
+      "signerName": "Signer name",
+      "place": "Place",
+      "method": "Method",
+      "confirm": "Add signature"
+    },
+    "assignDialog": {
+      "title": "Assign consignment note",
+      "description": "Attach this note to a tour and/or a driver.",
+      "tour": "Tour",
+      "profile": "Driver"
+    },
+    "cancelDialog": {
+      "title": "Cancel consignment note",
+      "body": "Cancel {{reference}}? This moves it to the Cancelled status."
+    },
+    "detail": {
+      "created": "Created",
+      "route": "Route",
+      "signatures": "Signatures",
+      "noSignatures": "No signature yet.",
+      "proofOfDelivery": "Proof of delivery",
+      "failureReason": "Failure reason",
+      "routeHint": "Route not computed yet. Use \"Recalculate route\" to draw it."
+    }
+  },
+  "tours": {
+    "title": "Tours",
+    "description": "Group consignment notes into delivery tours.",
+    "new": "New tour",
+    "backToList": "Back to tours",
+    "empty": "No tour yet.",
+    "noResults": "No tour matches your filters.",
+    "filters": {
+      "status": "Status",
+      "allStatuses": "All statuses",
+      "date": "Date",
+      "sort": "Sort"
+    },
+    "sort": {
+      "newest": "Newest first",
+      "plannedDate": "Planned date",
+      "name": "Name"
+    },
+    "pagination": {
+      "loadingMore": "Loading more…",
+      "loaded": "{{loaded}} of {{total}} loaded"
+    },
+    "status": {
+      "PLANNED": "Planned",
+      "ASSIGNED": "Assigned",
+      "IN_PROGRESS": "In progress",
+      "COMPLETED": "Completed",
+      "CANCELLED": "Cancelled"
+    },
+    "fields": {
+      "name": "Name",
+      "reference": "Reference",
+      "plannedDate": "Planned date",
+      "vehicle": "Vehicle",
+      "driver": "Driver",
+      "depot": "Depot",
+      "notes": "Notes"
+    },
+    "form": {
+      "createTitle": "New tour",
+      "editTitle": "Edit tour",
+      "createDescription": "Create a delivery tour.",
+      "editDescription": "Update the tour details.",
+      "namePlaceholder": "Morning round",
+      "referencePlaceholder": "Auto-generated if empty",
+      "create": "Create tour",
+      "depotHint": "Defaults to the company billing address if left empty."
+    },
+    "actions": {
+      "changeStatus": "Change status",
+      "more": "More actions",
+      "assign": "Assign",
+      "cancel": "Cancel tour",
+      "optimize": "Optimize",
+      "resetOrder": "Reset",
+      "saveOrder": "Save order",
+      "addWaybills": "Add notes",
+      "addStopOnMap": "Add a stop on the map"
+    },
+    "statusDialog": {
+      "title": "Change status",
+      "description": "Pick the new status for this tour.",
+      "target": "New status",
+      "choose": "Choose a status",
+      "confirm": "Apply"
+    },
+    "history": {
+      "title": "Tour status history"
+    },
+    "assignDialog": {
+      "title": "Assign tour",
+      "description": "Assign a vehicle and a driver to this tour."
+    },
+    "addWaybills": {
+      "title": "Add consignment notes",
+      "description": "Pick consignment notes to add as stops.",
+      "searchPlaceholder": "Search a consignment note…",
+      "noResults": "No consignment note found.",
+      "add": "Add",
+      "added": "Added"
+    },
+    "cancelDialog": {
+      "title": "Cancel tour",
+      "body": "Cancel {{name}}? Its consignment notes will be detached."
+    },
+    "skipped": {
+      "title": "Some stops were skipped",
+      "reason": {
+        "UNROUTABLE": "Address could not be matched to the road network",
+        "TOO_FAR": "Address is too far from the road network"
+      }
+    },
+    "detail": {
+      "route": "Route",
+      "stops": "Stops",
+      "noStops": "No stop yet. Add consignment notes to build the tour.",
+      "previewHint": "Live preview of the new order, not saved yet.",
+      "removeStop": "Remove stop",
+      "assigned": "Assigned",
+      "addStopHint": "Click the map to add a stop."
+    },
+    "quickStop": {
+      "title": "Add a stop",
+      "description": "Create a consignment note at this location and attach it to the tour.",
+      "client": "Client",
+      "consignee": "Consignee",
+      "shipper": "Shipper",
+      "shipperHint": "Defaults to your company; edit if needed.",
+      "delivery": "Delivery location",
+      "create": "Create stop"
+    },
+    "searchPlaceholder": "Search by name or reference…"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "description": "Tariff grids and fuel surcharge indexation for this company.",
+    "tabs": {
+      "tariffs": "Tariff grids",
+      "fuel": "Fuel prices",
+      "quote": "Price quote"
+    },
+    "basis": {
+      "FLAT": "Flat fee",
+      "PER_KM": "Per km",
+      "PER_KG": "Per kg",
+      "PER_M3": "Per m³",
+      "PER_PACKAGE": "Per package",
+      "PER_STOP": "Per stop",
+      "PER_WAYBILL": "Per consignment note",
+      "PERCENT_OF_SUBTOTAL": "% of subtotal"
+    },
+    "basisUnit": {
+      "FLAT": "",
+      "PER_KM": "/km",
+      "PER_KG": "/kg",
+      "PER_M3": "/m³",
+      "PER_PACKAGE": "/pkg",
+      "PER_STOP": "/stop",
+      "PER_WAYBILL": "/note",
+      "PERCENT_OF_SUBTOTAL": "%"
+    },
+    "kind": {
+      "BASE": "Base",
+      "SURCHARGE": "Surcharge"
+    },
+    "status": {
+      "DRAFT": "Inactive",
+      "ACTIVE": "Active"
+    },
+    "fuelType": {
+      "DIESEL": "Diesel",
+      "PETROL": "Petrol (E10)",
+      "ELECTRIC": "Electric",
+      "HYBRID": "Hybrid",
+      "PLUGIN_HYBRID": "Plug-in hybrid",
+      "LPG": "LPG",
+      "CNG": "CNG",
+      "HYDROGEN": "Hydrogen",
+      "OTHER": "Ethanol E85"
+    },
+    "fuelMode": {
+      "THRESHOLD_COMPONENTS": "Surcharges above a threshold",
+      "INDEXED_PERCENT": "Indexed percentage"
+    },
+    "roundingMode": {
+      "HALF_UP": "Half up",
+      "HALF_EVEN": "Half to even",
+      "UP": "Up",
+      "DOWN": "Down",
+      "CEILING": "Ceiling",
+      "FLOOR": "Floor",
+      "HALF_DOWN": "Half down",
+      "UNNECESSARY": "No rounding"
+    },
+    "tariffs": {
+      "new": "New grid",
+      "empty": "No tariff grid yet. Create one to start pricing automatically.",
+      "noResults": "No grid matches these filters.",
+      "defaultBadge": "Default",
+      "clientBound": "Client grid",
+      "companyWide": "Company default",
+      "validAlways": "No validity limit",
+      "validFrom": "From {{date}}",
+      "validUntil": "Until {{date}}",
+      "validRange": "{{from}} to {{to}}",
+      "componentsCount": "{{count}} line",
+      "componentsCount_other": "{{count}} lines",
+      "hasFuel": "Fuel surcharge",
+      "filters": {
+        "status": "Status",
+        "allStatuses": "All statuses",
+        "client": "Client",
+        "allClients": "All grids",
+        "companyOnly": "Company default grids",
+        "sort": "Sort"
+      },
+      "sort": {
+        "newest": "Newest",
+        "oldest": "Oldest",
+        "nameAsc": "Name (A-Z)",
+        "nameDesc": "Name (Z-A)"
+      }
+    },
+    "form": {
+      "createTitle": "New tariff grid",
+      "editTitle": "Edit grid",
+      "createDescription": "Create a draft grid, then add lines and activate it.",
+      "editDescription": "Update the grid settings.",
+      "create": "Create grid",
+      "name": "Name",
+      "namePlaceholder": "Standard national 2026",
+      "description": "Description",
+      "descriptionPlaceholder": "Default grid for national shipments",
+      "currency": "Currency",
+      "isDefault": "Company default grid",
+      "isDefaultHint": "Used when no client-specific grid applies. A default grid cannot be tied to a client.",
+      "client": "Client",
+      "clientHint": "Tie this grid to a specific client. Leave empty for a company grid.",
+      "validFrom": "Valid from",
+      "validUntil": "Valid until",
+      "roundingMode": "Rounding mode",
+      "roundingScale": "Rounding decimals",
+      "minChargeAmount": "Minimum charge",
+      "minChargeHint": "Floor applied to the grand total."
+    },
+    "detail": {
+      "back": "Back to pricing",
+      "notFound": "This grid no longer exists.",
+      "settings": "Grid settings",
+      "edit": "Edit",
+      "activate": "Activate",
+      "deactivate": "Deactivate",
+      "delete": "Delete",
+      "deleteTitle": "Delete this grid?",
+      "deleteBody": "The grid « {{name}} », its lines and fuel policy will be removed.",
+      "deleteAlternative": "Prefer deactivating to keep the grid for later.",
+      "activateHint": "Only an active grid is used for pricing.",
+      "currency": "Currency",
+      "rounding": "Rounding",
+      "minCharge": "Minimum charge",
+      "validity": "Validity",
+      "createdAt": "Created {{date}}",
+      "updatedAt": "updated {{date}}",
+      "components": "Billable lines",
+      "componentsHint": "Lines are applied in order to build the subtotal.",
+      "addComponent": "Add line",
+      "noComponents": "No line yet. Add at least one to price shipments.",
+      "fuel": "Fuel surcharge",
+      "fuelHint": "Optionally add a fuel surcharge on top of the subtotal.",
+      "fuelNone": "No fuel policy on this grid.",
+      "fuelConfigure": "Configure fuel surcharge",
+      "fuelEdit": "Edit policy",
+      "fuelRemove": "Remove policy",
+      "fuelRemoveTitle": "Remove the fuel policy?",
+      "fuelRemoveBody": "The fuel surcharge will no longer apply to this grid.",
+      "fuelEnabled": "Enabled",
+      "fuelDisabled": "Disabled",
+      "fuelThreshold": "Threshold",
+      "fuelReference": "Reference price",
+      "fuelDieselShare": "Diesel share",
+      "fuelClampAtZero": "Floored at zero",
+      "fuelSource": "Source",
+      "fuelSurchargeLines": "Surcharge lines"
+    },
+    "component": {
+      "addTitle": "Add a line",
+      "editTitle": "Edit line",
+      "add": "Add line",
+      "label": "Label",
+      "labelPlaceholder": "Distance",
+      "basis": "Billing basis",
+      "unitPrice": "Unit price",
+      "unitPricePercentHint": "Percentage of the subtotal.",
+      "includedQuantity": "Included quantity",
+      "includedQuantityHint": "Free allowance before billing.",
+      "minQuantity": "Min quantity",
+      "maxQuantity": "Max quantity",
+      "minAmount": "Min amount",
+      "maxAmount": "Max amount",
+      "position": "Position",
+      "deleteTitle": "Delete this line?",
+      "deleteBody": "The line « {{label}} » will be removed from the grid.",
+      "advanced": "Bounds (optional)"
+    },
+    "fuelPolicy": {
+      "title": "Fuel surcharge",
+      "description": "Apply a surcharge indexed on the government diesel price.",
+      "enabled": "Enable the fuel surcharge",
+      "fuelType": "Fuel type",
+      "mode": "Mode",
+      "thresholdPrice": "Threshold price (€/L)",
+      "thresholdHint": "Surcharges apply when the fuel price exceeds this value.",
+      "referencePrice": "Reference price (€/L)",
+      "referenceHint": "Baseline price for the indexed percentage.",
+      "dieselShareRatio": "Diesel share (0-1)",
+      "dieselShareHint": "Share of the price exposed to fuel, e.g. 0.30.",
+      "clampAtZero": "Floor the surcharge at zero",
+      "clampAtZeroHint": "No discount when the price drops below the reference.",
+      "sourceFilter": "Source (optional)",
+      "sourcePlaceholder": "data.economie.gouv.fr",
+      "surchargeComponents": "Surcharge lines",
+      "surchargeHint": "Lines added above the threshold (per km, per kg, etc.).",
+      "addSurcharge": "Add surcharge line",
+      "noSurcharge": "No surcharge line yet.",
+      "save": "Save policy"
+    },
+    "fuelPrices": {
+      "title": "Fuel price index",
+      "description": "Latest government price and history.",
+      "current": "Current price",
+      "noIndex": "No price stored yet. Refresh to fetch the latest index.",
+      "refresh": "Refresh",
+      "refreshed": "{{count}} price ingested from {{source}}.",
+      "refreshed_other": "{{count}} prices ingested from {{source}}.",
+      "fuelType": "Fuel type",
+      "referenceDate": "Reference date",
+      "source": "Source",
+      "fetchedAt": "Fetched",
+      "price": "Price",
+      "history": "History",
+      "historyEmpty": "No price in this period.",
+      "from": "From",
+      "to": "To"
+    },
+    "quote": {
+      "title": "Price quote",
+      "description": "Estimate a price from ad-hoc quantities, without saving.",
+      "tariff": "Force a grid (optional)",
+      "tariffAuto": "Automatic resolution",
+      "client": "Client (optional)",
+      "distanceKm": "Distance (km)",
+      "totalWeightKg": "Total weight (kg)",
+      "totalVolumeM3": "Total volume (m³)",
+      "packageCount": "Packages",
+      "stopCount": "Stops",
+      "estimate": "Estimate",
+      "empty": "Build a route or enter quantities to see the price.",
+      "noTariff": "No grid resolved. Activate a default grid or pick a client grid.",
+      "updating": "Updating...",
+      "distanceManual": "Manual",
+      "distanceFromRoute": "From route",
+      "distanceFromRouteHint": "Build a route on the map to compute the distance.",
+      "distanceComputed": "{{km}} km from the route."
+    },
+    "breakdown": {
+      "line": "Line",
+      "basis": "Basis",
+      "quantity": "Qty",
+      "unitPrice": "Unit price",
+      "lineTotal": "Total",
+      "subtotal": "Subtotal",
+      "surchargeTotal": "Surcharges",
+      "total": "Total",
+      "fuelPriceUsed": "Fuel price used",
+      "fuelReferenceDate": "Reference date",
+      "grid": "Grid",
+      "warningsTitle": "Warnings",
+      "editUnitPrice": "Click to change this price for the estimate",
+      "resetUnitPrice": "Reset to the grid price",
+      "overrideNote": "Prices edited for this estimate only; the grid is unchanged."
+    },
+    "warnings": {
+      "error.pricing.route-not-computed": "Route not computed: distance-based lines are billed at 0."
+    },
+    "waybillCard": {
+      "title": "Pricing",
+      "current": "Carriage charges",
+      "notSet": "No price set.",
+      "recalculate": "Calculate price",
+      "recalculated": "Price recalculated and saved.",
+      "notApplicable": "Pricing is not available for a cancelled consignment note.",
+      "manualHint": "You can also set the amount manually by editing the note.",
+      "viewBreakdown": "View breakdown",
+      "hideBreakdown": "Hide breakdown",
+      "lastQuote": "Last calculation"
+    },
+    "route": {
+      "title": "Distance from a route",
+      "description": "Add addresses or GPS points to compute the distance automatically.",
+      "modeRoute": "Consignment note",
+      "modeTour": "Tour",
+      "useDepot": "Start and end at the depot",
+      "points": "Points (in order)",
+      "stops": "Stops",
+      "pointsHint": "Click the map, search an address, or pick a client.",
+      "waybillHint": "Shipper and consignee: click the map, search an address, or pick a client.",
+      "optimize": "Optimize order",
+      "pointLabel": "Point {{n}}",
+      "stopLabel": "Stop {{n}}",
+      "shipperLabel": "Shipper",
+      "consigneeLabel": "Consignee",
+      "addPoint": "Add a point",
+      "addStop": "Add a stop",
+      "addAddress": "Add address",
+      "addClient": "Add client",
+      "removePoint": "Remove this point",
+      "pointKindAddress": "Address",
+      "pointKindClient": "Client",
+      "clientAddress": "Address",
+      "clientNoCoords": "This client address has no GPS coordinates.",
+      "pointFromMap": "Point set on the map ({{lat}}, {{lon}})",
+      "searchPlaceholder": "Search an address to add a point",
+      "compute": "Compute distance",
+      "recompute": "Recompute",
+      "needPoints": "Add at least two located points.",
+      "needTour": "Add the depot and at least one located stop.",
+      "tourNeedsDepot": "An optimized tour needs the depot as its origin.",
+      "applied": "Distance applied to the estimate:"
+    }
+  }
+}

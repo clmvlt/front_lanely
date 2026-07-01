@@ -1,0 +1,153 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ---------------------------------------------------------------------------
+   Lanely - design tokens.
+   SOURCE DE VÉRITÉ : src/lib/colors.ts (fidèle à color_chart.md).
+   Les valeurs ci-dessous sont le MIROIR de colors.ts, exposé à Tailwind pour
+   générer les classes utilitaires (bg-brand-500, text-status-delivered, …).
+   Pour AJOUTER une couleur en classe Tailwind : ajoute-la dans colors.ts PUIS
+   ici. (En JS / var(--…) / style inline, colors.ts suffit.)
+   Couleur de marque (logo) : #0153FD
+--------------------------------------------------------------------------- */
+
+@theme {
+  /* Marque (bleu) */
+  --color-brand-50: #e8efff;
+  --color-brand-100: #c4d6ff;
+  --color-brand-200: #8fb0ff;
+  --color-brand-400: #3d7afe;
+  --color-brand-500: #0153fd; /* logo */
+  --color-brand-600: #0140c9;
+  --color-brand-800: #002e94;
+
+  /* Neutres */
+  --color-neutral-50: #f7f8fa;
+  --color-neutral-100: #edeff3;
+  --color-neutral-200: #d9dde5;
+  --color-neutral-400: #9aa1ae;
+  --color-neutral-700: #4a5160;
+  --color-neutral-900: #161a22;
+
+  /* Statuts de livraison - couleur forte (pastille / icône) */
+  --color-status-pending: #9aa1ae;
+  --color-status-collected: #0153fd;
+  --color-status-transit: #f59e0b;
+  --color-status-delivered: #16a05c;
+  --color-status-failed: #e23b3b;
+
+  /* Statuts - fond de badge */
+  --color-status-pending-bg: #edeff3;
+  --color-status-collected-bg: #e8efff;
+  --color-status-transit-bg: #fef3dc;
+  --color-status-delivered-bg: #e3f5ec;
+  --color-status-failed-bg: #fceaea;
+
+  /* Statuts - texte de badge */
+  --color-status-pending-text: #4a5160;
+  --color-status-collected-text: #002e94;
+  --color-status-transit-text: #854f0b;
+  --color-status-delivered-text: #0d6e3d;
+  --color-status-failed-text: #9b2727;
+}
+
+/* shadcn/ui theme tokens */
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+}
+
+:root {
+  --radius: 0.625rem;
+
+  --background: #f7f8fa; /* gray-50 */
+  --foreground: #161a22; /* gray-900 */
+  --card: #ffffff;
+  --card-foreground: #161a22;
+  --popover: #ffffff;
+  --popover-foreground: #161a22;
+
+  --primary: #0153fd; /* brand-500 */
+  --primary-foreground: #ffffff;
+
+  --secondary: #edeff3; /* gray-100 */
+  --secondary-foreground: #161a22;
+
+  --muted: #edeff3;
+  --muted-foreground: #4a5160; /* gray-700 */
+
+  --accent: #e8efff; /* brand-50 */
+  --accent-foreground: #002e94; /* brand-800 */
+
+  --destructive: #e23b3b;
+
+  --border: #d9dde5; /* gray-200 */
+  --input: #d9dde5;
+  --ring: #0153fd;
+}
+
+.dark {
+  --background: #161a22;
+  --foreground: #f7f8fa;
+  --card: #1f242e;
+  --card-foreground: #f7f8fa;
+  --popover: #1f242e;
+  --popover-foreground: #f7f8fa;
+
+  --primary: #3d7afe; /* brand-400 */
+  --primary-foreground: #ffffff;
+
+  --secondary: #2a3140;
+  --secondary-foreground: #f7f8fa;
+
+  --muted: #2a3140;
+  --muted-foreground: #9aa1ae;
+
+  --accent: #002e94;
+  --accent-foreground: #e8efff;
+
+  --destructive: #e23b3b;
+
+  --border: #2a3140;
+  --input: #2a3140;
+  --ring: #3d7afe;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled),
+  [role="combobox"]:not(:disabled),
+  select:not(:disabled) {
+    cursor: pointer;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+      Helvetica, Arial, sans-serif;
+  }
+}

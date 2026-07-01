@@ -1,0 +1,1582 @@
+{
+  "app": {
+    "name": "Lanely"
+  },
+  "env": {
+    "dev": "Développement",
+    "beta": "Beta",
+    "demo": "Démo",
+    "prod": "Production"
+  },
+  "language": {
+    "label": "Langue"
+  },
+  "map": {
+    "empty": "Aucun trajet à afficher pour le moment.",
+    "unavailable": "Carte temporairement indisponible.",
+    "pickerHint": "Cliquez sur la carte ou déplacez le repère pour fixer le point.",
+    "pickerEmpty": "Cliquez sur la carte pour placer le point.",
+    "plannerHint": "Cliquez pour ajouter un point, clic droit pour en supprimer un.",
+    "plannerEmpty": "Cliquez sur la carte ou recherchez une adresse pour ajouter un point."
+  },
+  "common": {
+    "loading": "Chargement…",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "error": "Une erreur est survenue",
+    "taxExcluded": "HT",
+    "taxIncluded": "TTC",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "confirmPassword": "Confirmer le mot de passe",
+    "backHome": "Retour à l'accueil",
+    "placeholders": {
+      "email": "vous@entreprise.com",
+      "password": "••••••••",
+      "firstName": "Jean",
+      "lastName": "Dupont"
+    },
+    "edit": "Modifier",
+    "done": "Terminé"
+  },
+  "auth": {
+    "loginTitle": "Connexion",
+    "loginSubtitle": "Accédez à votre compte Lanely",
+    "loginSubmit": "Se connecter",
+    "noAccount": "Pas encore de compte ?",
+    "goRegister": "Créer un compte",
+    "registerTitle": "Créer votre compte",
+    "registerSubtitle": "Commencez à utiliser Lanely",
+    "registerSubmit": "Créer le compte",
+    "hasAccount": "Vous avez déjà un compte ?",
+    "goLogin": "Se connecter",
+    "logout": "Se déconnecter",
+    "passwordHint": "Au moins 8 caractères",
+    "or": "ou",
+    "continue": "Continuer",
+    "googleCompleteTitle": "Finalisez votre compte",
+    "googleCompleteSubtitle": "Confirmez vos informations pour terminer l'inscription avec Google.",
+    "googleExpired": "Votre session Google a expiré. Reconnectez-vous avec Google.",
+    "googleRestart": "Retour à la connexion",
+    "passwordMismatch": "Les mots de passe ne correspondent pas",
+    "passwordStrength": {
+      "label": "Robustesse du mot de passe",
+      "weak": "Faible",
+      "fair": "Moyen",
+      "good": "Bon",
+      "strong": "Fort"
+    },
+    "forgotLink": "Mot de passe oublié ?",
+    "forgotPassword": {
+      "title": "Mot de passe oublié ?",
+      "subtitle": "Saisissez votre e-mail et nous vous enverrons un lien de réinitialisation.",
+      "submit": "Envoyer le lien",
+      "backToLogin": "Retour à la connexion",
+      "sentTitle": "Vérifiez votre boîte de réception",
+      "sentMessage": "Si un compte existe pour cet e-mail, vous recevrez un lien pour réinitialiser votre mot de passe.",
+      "resend": "Renvoyer le lien",
+      "resendIn": "Renvoyer dans {{seconds}} s"
+    },
+    "resetPassword": {
+      "title": "Définir un nouveau mot de passe",
+      "subtitle": "Choisissez un nouveau mot de passe pour votre compte.",
+      "newPassword": "Nouveau mot de passe",
+      "confirmPassword": "Confirmer le nouveau mot de passe",
+      "submit": "Réinitialiser le mot de passe",
+      "success": "Mot de passe réinitialisé. Connectez-vous avec votre nouveau mot de passe.",
+      "invalidTitle": "Lien invalide",
+      "invalidMessage": "Ce lien de réinitialisation est invalide ou incomplet.",
+      "requestNewLink": "Demander un nouveau lien"
+    }
+  },
+  "landing": {
+    "eyebrow": "La gestion de transport, simplifiée",
+    "title": "Pilotez vos livraisons en temps réel",
+    "subtitle": "Lanely réunit votre flotte, vos expéditions et vos équipes dans un TMS clair et moderne, de l'enlèvement à la preuve de livraison.",
+    "getStarted": "Commencer",
+    "signIn": "Se connecter",
+    "goToApp": "Ouvrir l'application",
+    "features": {
+      "tracking": {
+        "title": "Suivi en temps réel",
+        "desc": "Suivez chaque expédition, de l'enlèvement à la livraison."
+      },
+      "deliveries": {
+        "title": "Gestion des livraisons",
+        "desc": "Planifiez, affectez et confirmez vos livraisons avec preuve."
+      },
+      "teams": {
+        "title": "Pensé pour les équipes",
+        "desc": "Plusieurs sociétés, rôles et permissions, prêts à l'emploi."
+      }
+    }
+  },
+  "verify": {
+    "title": "Vérification de l'e-mail",
+    "verifying": "Vérification de votre e-mail…",
+    "success": "Votre e-mail a été vérifié.",
+    "successHint": "Vous pouvez maintenant utiliser toutes les fonctionnalités de votre compte.",
+    "redirecting": "Redirection vers l'application…",
+    "errorTitle": "Échec de la vérification",
+    "errorNotFound": "Ce lien de vérification est invalide.",
+    "errorExpired": "Ce lien de vérification a expiré.",
+    "errorUsed": "Ce lien de vérification a déjà été utilisé.",
+    "missingToken": "Ce lien de vérification est invalide ou incomplet.",
+    "goToApp": "Aller à l'application",
+    "goToLogin": "Se connecter",
+    "requiredTitle": "Vérifiez votre e-mail pour continuer",
+    "requiredMessage": "Nous avons envoyé un lien de vérification à {{email}}. Cliquez dessus pour activer votre compte, puis revenez ici.",
+    "resend": "Renvoyer l'e-mail",
+    "resent": "E-mail de vérification envoyé. Consultez votre boîte de réception."
+  },
+  "invite": {
+    "title": "Rejoindre une entreprise",
+    "missingCode": "Ce lien d'invitation est invalide ou incomplet.",
+    "loggedInPrompt": "Vous êtes connecté. Acceptez l'invitation pour rejoindre l'entreprise.",
+    "accept": "Accepter l'invitation",
+    "newAccountPrompt": "Créez un compte pour rejoindre l'entreprise.",
+    "haveAccount": "Vous avez déjà un compte ? Connectez-vous, puis rouvrez le lien.",
+    "success": "Vous avez rejoint {{company}}."
+  },
+  "nav": {
+    "company": "Entreprise",
+    "companySettings": "Paramètres",
+    "companyMembers": "Membres & profils",
+    "companyClients": "Clients",
+    "menu": "Menu",
+    "companyVehicles": "Véhicules",
+    "companyWaybills": "Lettres de voiture",
+    "companyDock": "Quai",
+    "companyTours": "Tournées",
+    "companyPricing": "Tarification"
+  },
+  "dashboard": {
+    "welcome": "Bienvenue, {{name}}",
+    "companies": "Vos entreprises",
+    "noCompanies": "Vous n'êtes membre d'aucune entreprise pour le moment.",
+    "role": "Rôle",
+    "permissions": "{{count}} permission",
+    "permissions_other": "{{count}} permissions",
+    "createCompany": "Créer une entreprise",
+    "createCompanySubtitle": "Donnez un nom à votre nouvelle entreprise pour commencer.",
+    "createFromMenu": "Utilisez le menu en haut à droite pour créer votre première entreprise.",
+    "companyName": "Nom de l'entreprise",
+    "create": "Créer",
+    "subscriptionRequiredTitle": "Abonnement requis",
+    "subscriptionRequiredBody": "Votre abonnement actuel ne permet pas de créer une entreprise. Passez à un abonnement supérieur pour créer et gérer votre propre entreprise.",
+    "joinHint": "Vous pouvez tout de même rejoindre une entreprise existante. Demandez à un gérant de vous inviter par e-mail. Rejoindre une entreprise ne nécessite aucun abonnement.",
+    "upgrade": "Mettre à niveau",
+    "upgradeSoon": "La mise à niveau n'est pas encore disponible. Contactez-nous pour commencer."
+  },
+  "company": {
+    "roles": {
+      "OWNER": "Gérant",
+      "MEMBER": "Membre"
+    },
+    "settings": {
+      "title": "Paramètres de l'entreprise",
+      "description": "Gérez le nom et le logo de votre entreprise.",
+      "name": "Nom de l'entreprise",
+      "publicCode": "Code public",
+      "publicCodeHint": "Les chauffeurs scannent ce code dans l'application mobile pour se rattacher à votre entreprise.",
+      "changePicture": "Changer le logo",
+      "removePicture": "Supprimer",
+      "uploading": "Envoi en cours…",
+      "saved": "Modifications enregistrées."
+    },
+    "legal": {
+      "title": "Informations légales & facturation",
+      "description": "Utilisées sur les factures et pour la facturation. Tous les champs sont facultatifs.",
+      "legalInfo": "Informations légales",
+      "legalName": "Raison sociale",
+      "legalNamePlaceholder": "Speedy Delivery SAS",
+      "registrationNumber": "Numéro d'immatriculation",
+      "registrationNumberPlaceholder": "552 100 554",
+      "vatNumber": "Numéro de TVA",
+      "vatNumberPlaceholder": "FR40552100554",
+      "legalForm": "Forme juridique",
+      "legalFormPlaceholder": "SAS, SARL, SA…",
+      "billingAddress": "Adresse de facturation",
+      "line1": "Adresse",
+      "line1Placeholder": "12 Rue de Rivoli",
+      "line2": "Complément d'adresse",
+      "line2Placeholder": "Bâtiment A, 3e étage",
+      "postalCode": "Code postal",
+      "postalCodePlaceholder": "75001",
+      "city": "Ville",
+      "cityPlaceholder": "Paris",
+      "state": "Région / état",
+      "statePlaceholder": "Île-de-France",
+      "country": "Pays",
+      "billingContact": "Contact de facturation",
+      "billingEmail": "E-mail de facturation",
+      "billingEmailPlaceholder": "facturation@entreprise.com",
+      "billingPhone": "Téléphone de facturation",
+      "billingPhonePlaceholder": "+33123456789",
+      "billingPhoneHint": "Format international recommandé, ex. +33123456789.",
+      "saved": "Modifications enregistrées."
+    },
+    "deposit": {
+      "title": "Adresse du dépôt (entrepôt)",
+      "description": "Point de départ et de retour de vos tournées. Recherchez une adresse, puis placez ou déplacez le repère pour fixer le point GPS exact. Tous les champs sont optionnels.",
+      "search": "Rechercher une adresse",
+      "searchPlaceholder": "12 Rue de Rivoli, Paris",
+      "address": "Adresse",
+      "line1": "Adresse",
+      "line1Placeholder": "12 Rue de Rivoli",
+      "line2": "Complément d'adresse",
+      "line2Placeholder": "Bâtiment B, 3e étage",
+      "postalCode": "Code postal",
+      "postalCodePlaceholder": "75001",
+      "city": "Ville",
+      "cityPlaceholder": "Paris",
+      "state": "Région / département",
+      "statePlaceholder": "Île-de-France",
+      "country": "Pays",
+      "location": "Emplacement sur la carte",
+      "mapHint": "Cliquez sur la carte ou déplacez le repère pour fixer le point.",
+      "mapEmpty": "Recherchez une adresse ou cliquez sur la carte pour placer le dépôt.",
+      "clear": "Effacer le dépôt",
+      "saved": "Modifications enregistrées."
+    },
+    "members": {
+      "title": "Membres",
+      "description": "Les personnes rattachées à cette entreprise et leurs permissions.",
+      "allPermissions": "Toutes les permissions",
+      "editPermissions": "Modifier les permissions",
+      "editPermissionsFor": "Choisissez les permissions accordées à {{name}}."
+    },
+    "profiles": {
+      "title": "Profils mobiles",
+      "description": "Identifiants de l'application mobile pour vos chauffeurs : un nom d'utilisateur et un mot de passe, sans e-mail.",
+      "empty": "Aucun profil mobile pour le moment.",
+      "active": "Actif",
+      "inactive": "Inactif",
+      "create": "Nouveau profil",
+      "edit": "Modifier",
+      "activate": "Activer",
+      "deactivate": "Désactiver",
+      "delete": "Supprimer",
+      "displayName": "Nom affiché",
+      "displayNamePlaceholder": "Jean (équipe du matin)",
+      "username": "Nom d'utilisateur",
+      "usernamePlaceholder": "chauffeur01",
+      "password": "Mot de passe",
+      "passwordEditHint": "Laissez vide pour conserver le mot de passe actuel.",
+      "createTitle": "Nouveau profil mobile",
+      "createDescription": "Créez un identifiant mobile que les chauffeurs utilisent pour se connecter à l'application.",
+      "editTitle": "Modifier le profil mobile",
+      "editDescription": "Modifiez le nom d'utilisateur, le nom affiché ou le mot de passe.",
+      "deleteTitle": "Supprimer le profil ?",
+      "deleteBody": "Cela supprime définitivement {{name}} et révoque toutes ses sessions. Cette action est irréversible.",
+      "seats": {
+        "usage": "{{used}}/{{limit}} places utilisées",
+        "remaining": "{{count}} place disponible",
+        "remaining_other": "{{count}} places disponibles",
+        "full": "Toutes les places sont utilisées. Améliorez votre offre pour ajouter des profils.",
+        "noPlan": "Aucun abonnement actif. Choisissez une offre pour ajouter des profils.",
+        "manage": "Gérer l'abonnement"
+      }
+    },
+    "invitations": {
+      "title": "Invitations",
+      "description": "Invitez des personnes par e-mail. Elles rejoignent l'entreprise comme membres dès qu'elles acceptent, aucun abonnement requis.",
+      "email": "Adresse e-mail",
+      "invite": "Envoyer l'invitation",
+      "empty": "Aucune invitation pour le moment.",
+      "expiresAt": "Expire le {{date}}",
+      "copyLink": "Copier le lien",
+      "copied": "Copié",
+      "delete": "Supprimer",
+      "deleteTitle": "Supprimer l'invitation ?",
+      "deleteBody": "Cela supprime définitivement l'invitation de {{email}}. Si elle est encore en attente, son lien de jointure cesse de fonctionner immédiatement.",
+      "deleteAcceptedNote": "Cette personne a déjà rejoint l'entreprise. Supprimer l'invitation ne la retire pas de l'entreprise.",
+      "status": {
+        "PENDING": "En attente",
+        "ACCEPTED": "Acceptée",
+        "EXPIRED": "Expirée",
+        "REVOKED": "Révoquée"
+      }
+    }
+  },
+  "clients": {
+    "title": "Clients",
+    "description": "Vos clients : entreprises et particuliers pour qui vous livrez.",
+    "new": "Nouveau client",
+    "searchPlaceholder": "Rechercher par nom, référence ou e-mail…",
+    "empty": "Aucun client pour le moment.",
+    "noResults": "Aucun client ne correspond à votre recherche.",
+    "deliveryBlocked": "Livraison bloquée",
+    "archive": "Archiver",
+    "restore": "Restaurer",
+    "archiveTitle": "Archiver le client ?",
+    "archiveBody": "{{name}} sera déplacé dans les archives. Vous pourrez le restaurer à tout moment.",
+    "delete": "Supprimer définitivement",
+    "deleteTitle": "Supprimer définitivement le client ?",
+    "deleteBody": "{{name}}, ses adresses et ses contacts seront supprimés définitivement. Cette action est irréversible. Les lettres de voiture sont conservées sans le client.",
+    "deleteArchiveFirst": "Un client doit être archivé avant de pouvoir être supprimé.",
+    "filters": {
+      "status": "Statut",
+      "sort": "Tri"
+    },
+    "status": {
+      "ACTIVE": "Actif",
+      "ARCHIVED": "Archivé"
+    },
+    "sort": {
+      "nameAsc": "Nom (A-Z)",
+      "nameDesc": "Nom (Z-A)",
+      "newest": "Plus récents",
+      "oldest": "Plus anciens"
+    },
+    "type": {
+      "COMPANY": "Entreprise",
+      "INDIVIDUAL": "Particulier"
+    },
+    "languages": {
+      "en": "Anglais",
+      "fr": "Français"
+    },
+    "addressType": {
+      "HEADQUARTERS": "Siège social",
+      "DEPOT": "Dépôt",
+      "BILLING": "Facturation",
+      "SHIPPING": "Livraison",
+      "OTHER": "Autre"
+    },
+    "pagination": {
+      "loadingMore": "Chargement…",
+      "loaded": "{{loaded}} sur {{total}} chargés"
+    },
+    "fields": {
+      "type": "Type",
+      "reference": "Référence",
+      "name": "Nom",
+      "legalName": "Raison sociale",
+      "legalForm": "Forme juridique",
+      "registrationNumber": "Numéro d'immatriculation",
+      "vatNumber": "Numéro de TVA",
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "website": "Site web",
+      "paymentTermsDays": "Délai de paiement (jours)",
+      "billingEmail": "E-mail de facturation",
+      "accountManager": "Responsable de compte",
+      "preferredLanguage": "Langue préférée",
+      "autoSendInvoiceEmail": "Envoi auto des factures par e-mail",
+      "autoSendDeliveryNotifications": "Envoi auto des notifications de livraison",
+      "autoSendPaymentReminders": "Envoi auto des relances de paiement",
+      "deliveryBlocked": "Bloquer les livraisons",
+      "notes": "Notes"
+    },
+    "form": {
+      "createTitle": "Nouveau client",
+      "editTitle": "Modifier le client",
+      "createDescription": "Ajoutez un client pour qui vous livrez.",
+      "editDescription": "Mettez à jour les informations de ce client.",
+      "identity": "Identité",
+      "contactInfo": "Coordonnées",
+      "billing": "Facturation",
+      "accountManager": "Responsable de compte",
+      "accountManagerNone": "Aucun",
+      "preferences": "Préférences",
+      "notes": "Notes",
+      "create": "Créer le client",
+      "backToClient": "Retour au client",
+      "referencePlaceholder": "Auto-générée si vide",
+      "namePlaceholder": "ACME Logistics",
+      "legalNamePlaceholder": "ACME Logistics SAS",
+      "legalFormPlaceholder": "SAS, SARL, GmbH…",
+      "registrationNumberPlaceholder": "552 100 554",
+      "vatNumberPlaceholder": "FR40552100554",
+      "phonePlaceholder": "+33123456789",
+      "websitePlaceholder": "https://acme.example",
+      "paymentTermsHint": "Entre 0 et 365 jours (30 par défaut).",
+      "deliveryBlockedHint": "Empêche l'affectation de nouvelles livraisons à ce client.",
+      "notesPlaceholder": "Notes internes sur ce client…"
+    },
+    "detail": {
+      "general": "Informations générales",
+      "generalDescription": "Identité, coordonnées et facturation.",
+      "days": "{{count}} jour",
+      "days_other": "{{count}} jours",
+      "createdAt": "Créé le {{date}}",
+      "back": "Retour aux clients",
+      "edit": "Modifier",
+      "waybills": "Lettres de voiture",
+      "notFound": "Ce client est introuvable."
+    },
+    "addresses": {
+      "title": "Adresses",
+      "description": "Dépôts et lieux utilisés pour planifier les livraisons.",
+      "create": "Nouvelle adresse",
+      "empty": "Aucune adresse pour le moment.",
+      "draftHint": "Ajoutez des lieux de livraison ou de facturation. Ils seront créés une fois le client enregistré.",
+      "createTitle": "Nouvelle adresse",
+      "editTitle": "Modifier l'adresse",
+      "formDescription": "Un lieu de livraison ou de facturation pour ce client.",
+      "label": "Libellé",
+      "labelPlaceholder": "Dépôt Nord",
+      "type": "Type",
+      "countryDefault": "Pays de la société (défaut)",
+      "location": "Localisation",
+      "locationHint": "Recherchez une adresse pour poser le point, ou laissez vide pour calculer automatiquement le point GPS à partir de l'adresse postale.",
+      "search": "Rechercher une adresse",
+      "searchPlaceholder": "12 Rue de Rivoli, Paris",
+      "mapHint": "Cliquez sur la carte ou déplacez le point pour fixer l'emplacement exact.",
+      "mapEmpty": "Recherchez une adresse ou cliquez sur la carte pour poser le point.",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "contactName": "Nom du contact",
+      "contactPhone": "Téléphone du contact",
+      "contactEmail": "E-mail du contact",
+      "deliveryInstructions": "Consignes de livraison",
+      "deliveryInstructionsPlaceholder": "Sonner au portail B, camions < 12m.",
+      "isPrimary": "Adresse principale",
+      "isDefaultBilling": "Adresse de facturation par défaut",
+      "isDefaultShipping": "Adresse de livraison par défaut",
+      "active": "Active",
+      "inactive": "Inactive",
+      "badgePrimary": "Principale",
+      "badgeBilling": "Facturation",
+      "badgeShipping": "Livraison",
+      "viewOnMap": "Voir sur la carte",
+      "delete": "Supprimer",
+      "deleteTitle": "Supprimer l'adresse ?",
+      "deleteBody": "{{name}} sera définitivement supprimée. Cette action est irréversible."
+    },
+    "contacts": {
+      "title": "Contacts",
+      "description": "Les personnes à joindre chez ce client.",
+      "create": "Nouveau contact",
+      "empty": "Aucun contact pour le moment.",
+      "draftHint": "Ajoutez des personnes à contacter pour ce client. Elles seront créées une fois le client enregistré.",
+      "createTitle": "Nouveau contact",
+      "editTitle": "Modifier le contact",
+      "formDescription": "Une personne à contacter chez ce client.",
+      "jobTitle": "Fonction",
+      "jobTitlePlaceholder": "Responsable logistique",
+      "isPrimary": "Contact principal",
+      "receivesInvoices": "Reçoit les factures",
+      "receivesDeliveryNotifications": "Reçoit les notifications de livraison",
+      "active": "Actif",
+      "inactive": "Inactif",
+      "badgePrimary": "Principal",
+      "badgeInvoices": "Factures",
+      "badgeDeliveries": "Livraisons",
+      "unnamed": "Contact sans nom",
+      "delete": "Supprimer",
+      "deleteTitle": "Supprimer le contact ?",
+      "deleteBody": "{{name}} sera définitivement supprimé. Cette action est irréversible."
+    }
+  },
+  "profile": {
+    "menu": "Mon profil",
+    "companies": "Entreprises",
+    "title": "Mon profil",
+    "subtitle": "Gérez les informations et la sécurité de votre compte.",
+    "picture": {
+      "title": "Photo de profil",
+      "description": "PNG, JPEG, WEBP ou GIF.",
+      "change": "Changer la photo",
+      "remove": "Supprimer",
+      "uploading": "Envoi…"
+    },
+    "info": {
+      "title": "Informations personnelles",
+      "description": "Modifiez votre nom. Votre adresse e-mail ne peut pas être changée.",
+      "emailHint": "Votre adresse e-mail ne peut pas être changée.",
+      "save": "Enregistrer",
+      "saved": "Vos informations ont été mises à jour."
+    },
+    "password": {
+      "title": "Changer le mot de passe",
+      "description": "Pour votre sécurité, toutes vos autres sessions seront déconnectées.",
+      "current": "Mot de passe actuel",
+      "new": "Nouveau mot de passe",
+      "confirm": "Confirmer le nouveau mot de passe",
+      "save": "Mettre à jour le mot de passe",
+      "changed": "Votre mot de passe a été mis à jour."
+    },
+    "sessions": {
+      "title": "Sessions actives",
+      "description": "Appareils actuellement connectés à votre compte. Révoquez ceux que vous ne reconnaissez pas.",
+      "current": "Cet appareil",
+      "unknownDevice": "Appareil inconnu",
+      "empty": "Aucune session active.",
+      "loadError": "Impossible de charger vos sessions.",
+      "revoke": "Révoquer",
+      "revoking": "Révocation…",
+      "revokeOthers": "Déconnecter les autres appareils",
+      "signedIn": "Connecté le {{when}}",
+      "confirmTitle": "Révoquer cette session ?",
+      "confirmDescription": "{{device}} sera déconnecté immédiatement.",
+      "currentWarning": "Il s'agit de l'appareil que vous utilisez actuellement. Le révoquer vous déconnectera.",
+      "confirmOthersTitle": "Déconnecter les autres appareils ?",
+      "confirmOthersDescription": "Toutes les sessions sauf celle-ci seront déconnectées immédiatement."
+    }
+  },
+  "subscription": {
+    "nav": "Abonnement",
+    "title": "Abonnement",
+    "subtitle": "Choisissez le plan adapté à votre équipe.",
+    "loadError": "Impossible de charger les plans d'abonnement.",
+    "perMonth": "/ mois",
+    "taxExcluded": "HT",
+    "taxIncluded": "TTC",
+    "currentPlan": "Plan actuel",
+    "choosePlan": "Choisir ce plan",
+    "limits": {
+      "companies": "{{count}} société",
+      "companies_other": "{{count}} sociétés",
+      "seats": "{{count}} place / société",
+      "seats_other": "{{count}} places / société"
+    },
+    "usage": {
+      "title": "Votre utilisation",
+      "description": "Ce que vous utilisez actuellement de votre abonnement.",
+      "none": "Vous n'avez pas encore d'abonnement actif. Choisissez un plan ci-dessous pour commencer.",
+      "companies": "{{used}}/{{limit}} société",
+      "companies_other": "{{used}}/{{limit}} sociétés",
+      "seats": "{{used}}/{{limit}} places ({{remaining}} restantes)"
+    },
+    "confirm": {
+      "title": "Passer à {{plan}} ?",
+      "body": "Votre abonnement sera mis à jour vers le plan {{plan}}.",
+      "action": "Confirmer"
+    }
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "back": "Retour à l'accueil"
+  },
+  "update": {
+    "title": "Une nouvelle version est disponible",
+    "description": "Rechargez pour obtenir la dernière mise à jour.",
+    "reload": "Recharger"
+  },
+  "home": {
+    "apiLabel": "API",
+    "apiMissing": "VITE_API_BASE_URL non définie",
+    "primaryAction": "Action principale",
+    "secondaryAction": "Action secondaire",
+    "sections": {
+      "brand": "Marque",
+      "neutrals": "Neutres",
+      "statuses": "Statuts de livraison",
+      "semantic": "Alias sémantiques"
+    }
+  },
+  "status": {
+    "pending": "En attente",
+    "collected": "Pris en charge",
+    "dock": "À quai",
+    "transit": "En cours de livraison",
+    "delivered": "Livré",
+    "failed": "Incident / retard"
+  },
+  "vehicles": {
+    "title": "Véhicules",
+    "description": "Votre parc : camions, fourgons et remorques exploités.",
+    "new": "Nouveau véhicule",
+    "searchPlaceholder": "Rechercher par plaque, marque, modèle ou VIN…",
+    "empty": "Aucun véhicule pour le moment.",
+    "noResults": "Aucun véhicule ne correspond à votre recherche.",
+    "allTypes": "Tous les types",
+    "allStatuses": "Tous les statuts",
+    "mileageUnit": "km",
+    "noValue": "-",
+    "filters": {
+      "status": "Statut",
+      "type": "Type",
+      "sort": "Tri"
+    },
+    "sort": {
+      "plateAsc": "Plaque (A-Z)",
+      "plateDesc": "Plaque (Z-A)",
+      "newest": "Plus récents",
+      "oldest": "Plus anciens",
+      "updated": "Modifiés récemment"
+    },
+    "pagination": {
+      "loadingMore": "Chargement…",
+      "loaded": "{{loaded}} sur {{total}} chargés"
+    },
+    "type": {
+      "TRUCK": "Camion",
+      "VAN": "Fourgon",
+      "CAR": "Voiture",
+      "TRAILER": "Remorque",
+      "SEMI_TRAILER": "Semi-remorque",
+      "BUS": "Bus",
+      "OTHER": "Autre"
+    },
+    "status": {
+      "ACTIVE": "Actif",
+      "INACTIVE": "Inactif",
+      "SOLD": "Vendu",
+      "OUT_OF_SERVICE": "Hors service",
+      "ARCHIVED": "Archivé"
+    },
+    "fuel": {
+      "DIESEL": "Diesel",
+      "PETROL": "Essence",
+      "ELECTRIC": "Électrique",
+      "HYBRID": "Hybride",
+      "PLUGIN_HYBRID": "Hybride rechargeable",
+      "LPG": "GPL",
+      "CNG": "GNC",
+      "HYDROGEN": "Hydrogène",
+      "OTHER": "Autre"
+    },
+    "documentCategory": {
+      "REGISTRATION_CARD": "Carte grise",
+      "INSURANCE": "Assurance",
+      "PHOTO": "Photo",
+      "OTHER": "Autre"
+    },
+    "fields": {
+      "registrationPlate": "Plaque d'immatriculation",
+      "vehicleType": "Type",
+      "vin": "VIN",
+      "make": "Marque",
+      "model": "Modèle",
+      "version": "Version",
+      "fuelType": "Carburant",
+      "firstRegistrationDate": "Première immatriculation",
+      "emissionClass": "Classe d'émission",
+      "grossWeightKg": "PTAC (kg)",
+      "payloadKg": "Charge utile (kg)",
+      "registrationCertificateNumber": "N° de carte grise",
+      "technicalInspectionDate": "Contrôle technique",
+      "roadTaxDueDate": "Échéance taxe",
+      "notes": "Notes",
+      "status": "Statut",
+      "latestMileage": "Dernier relevé",
+      "insurerName": "Assureur",
+      "policyNumber": "N° de police",
+      "coverageType": "Type de couverture",
+      "insuranceStartDate": "Début de couverture",
+      "insuranceEndDate": "Fin de couverture",
+      "insuranceContact": "Contact assureur"
+    },
+    "form": {
+      "createTitle": "Nouveau véhicule",
+      "editTitle": "Modifier le véhicule",
+      "createDescription": "Ajoutez un véhicule à votre parc.",
+      "editDescription": "Mettez à jour les informations de ce véhicule.",
+      "identification": "Identification",
+      "technical": "Technique",
+      "weights": "Poids",
+      "registration": "Carte grise",
+      "insurance": "Assurance",
+      "regulatory": "Dates réglementaires",
+      "notes": "Notes",
+      "create": "Créer le véhicule",
+      "none": "Aucun",
+      "platePlaceholder": "AB-123-CD",
+      "vinPlaceholder": "VF1ABCDEF12345678",
+      "makePlaceholder": "Renault",
+      "modelPlaceholder": "Master",
+      "versionPlaceholder": "dCi 145 L3H2",
+      "emissionClassPlaceholder": "Euro 6, Crit'Air 1…",
+      "certificatePlaceholder": "Numéro de carte grise",
+      "insurerPlaceholder": "AXA, Allianz…",
+      "notesPlaceholder": "Notes internes sur ce véhicule…"
+    },
+    "detail": {
+      "back": "Retour aux véhicules",
+      "edit": "Modifier",
+      "archive": "Archiver",
+      "restore": "Restaurer",
+      "delete": "Supprimer",
+      "tabInfo": "Informations",
+      "tabDocuments": "Documents",
+      "tabMileage": "Kilométrage",
+      "identification": "Identification",
+      "technical": "Caractéristiques techniques",
+      "weights": "Poids",
+      "registration": "Carte grise",
+      "insurance": "Assurance",
+      "regulatory": "Dates réglementaires",
+      "notes": "Notes",
+      "createdAt": "Créé le {{date}}",
+      "updatedAt": "Modifié le {{date}}",
+      "notFound": "Ce véhicule est introuvable.",
+      "noInsurance": "Aucune information d'assurance enregistrée.",
+      "latestMileageAt": "au {{date}}",
+      "noMileage": "Aucun relevé enregistré."
+    },
+    "archiveTitle": "Archiver le véhicule ?",
+    "archiveBody": "{{plate}} sera déplacé dans les archives. Vous pourrez le restaurer à tout moment.",
+    "deleteTitle": "Supprimer le véhicule ?",
+    "deleteBody": "{{plate}} ainsi que tous ses documents et son historique kilométrique seront définitivement supprimés. Cette action est irréversible.",
+    "deleteAlternative": "Préférez-vous l'archiver ? Un véhicule archivé peut être restauré plus tard.",
+    "delete": "Supprimer définitivement",
+    "documents": {
+      "title": "Documents & photos",
+      "description": "Carte grise, assurance, photos et autres fichiers.",
+      "allCategories": "Toutes les catégories",
+      "upload": "Téléverser",
+      "uploadTitle": "Téléverser un document",
+      "uploadDescription": "PDF, PNG, JPEG ou WEBP, jusqu'à 10 Mo.",
+      "dropHint": "Glissez-déposez un fichier ici, ou",
+      "browse": "parcourir",
+      "selected": "Fichier sélectionné",
+      "category": "Catégorie",
+      "label": "Libellé (optionnel)",
+      "labelPlaceholder": "ex. attestation d'assurance 2026",
+      "empty": "Aucun document pour le moment.",
+      "emptyCategory": "Aucun document dans cette catégorie.",
+      "download": "Télécharger",
+      "delete": "Supprimer",
+      "deleteTitle": "Supprimer le document ?",
+      "deleteBody": "{{name}} sera définitivement supprimé. Cette action est irréversible.",
+      "uploadAction": "Téléverser le document",
+      "uploadedOn": "Ajouté le {{date}}",
+      "fileTooLarge": "Fichier trop volumineux (max 10 Mo).",
+      "unsupportedType": "Type de fichier non supporté (PDF, PNG, JPEG ou WEBP uniquement).",
+      "fileRequired": "Veuillez choisir un fichier.",
+      "preview": "Aperçu"
+    },
+    "mileage": {
+      "title": "Historique kilométrique",
+      "description": "Relevés du compteur enregistrés au fil du temps.",
+      "add": "Ajouter un relevé",
+      "addTitle": "Ajouter un relevé kilométrique",
+      "addDescription": "Les saisies antidatées et correctives sont autorisées. Le relevé le plus récent par date définit le kilométrage actuel du véhicule.",
+      "value": "Kilométrage (km)",
+      "recordedAt": "Relevé le",
+      "note": "Note (optionnel)",
+      "notePlaceholder": "ex. relevé lors de l'entretien",
+      "empty": "Aucun relevé kilométrique.",
+      "save": "Enregistrer le relevé",
+      "current": "Actuel",
+      "chartTitle": "Évolution du kilométrage",
+      "recordedBy": "par {{name}}",
+      "pagination": {
+        "loadingMore": "Chargement…",
+        "loaded": "{{loaded}} sur {{total}} chargés"
+      }
+    }
+  },
+  "transport": {
+    "geocoding": {
+      "unavailable": "La recherche d'adresse est temporairement indisponible.",
+      "noResults": "Aucune adresse trouvée."
+    },
+    "routing": {
+      "unavailable": "Service d'itinéraire temporairement indisponible."
+    },
+    "map": {
+      "empty": "Aucun trajet à afficher pour le moment.",
+      "alt": "Carte de l'itinéraire"
+    },
+    "address": {
+      "search": "Rechercher une adresse",
+      "searchPlaceholder": "Commencez à saisir une adresse…",
+      "coordsHint": "Choisissez une suggestion pour fixer la position exacte.",
+      "coordsSet": "Position définie depuis l'adresse choisie.",
+      "none": "Aucune adresse",
+      "addManual": "Saisir l'adresse manuellement",
+      "editManual": "Modifier l'adresse manuellement",
+      "manualTitle": "Détails de l'adresse"
+    },
+    "party": {
+      "searchClient": "Rechercher un client…",
+      "noClients": "Aucun client trouvé.",
+      "clearClient": "Retirer le client"
+    },
+    "assign": {
+      "searchTour": "Rechercher une tournée…",
+      "noTours": "Aucune tournée trouvée.",
+      "clearTour": "Retirer la tournée",
+      "noProfile": "Aucun livreur",
+      "noVehicle": "Aucun véhicule",
+      "groupProfiles": "Livreurs mobiles",
+      "groupMembers": "Membres de l'équipe"
+    },
+    "statusNote": {
+      "label": "Note (facultatif)",
+      "hint": "Journalisée dans l'historique de statut (anomalie, souci de livraison, précision…)."
+    },
+    "statusBackward": {
+      "warning": "Ce changement fait revenir le statut en arrière. Vérifiez que c'est bien voulu avant d'appliquer."
+    },
+    "history": {
+      "action": "Historique",
+      "title": "Historique des statuts",
+      "description": "Chaque changement de statut, le plus récent en premier.",
+      "empty": "Aucun changement de statut pour le moment.",
+      "loadMore": "Charger plus",
+      "location": "{{lat}}, {{lon}}",
+      "actorType": {
+        "USER": "Web",
+        "PROFILE": "Livreur"
+      }
+    }
+  },
+  "clientWaybills": {
+    "back": "Retour au client",
+    "empty": "Aucune lettre de voiture pour ce client."
+  },
+  "goodsTypes": {
+    "title": "Catalogue de types de marchandise",
+    "description": "Types de marchandise réutilisables qui alimentent l'auto-complétion à la saisie d'une marchandise dans une lettre de voiture. Sans lien avec les lettres existantes.",
+    "create": "Nouveau type",
+    "searchPlaceholder": "Rechercher un type de marchandise…",
+    "empty": "Aucun type de marchandise pour le moment.",
+    "noResults": "Aucun type de marchandise ne correspond à votre recherche.",
+    "loadMore": "Charger plus",
+    "loaded": "{{loaded}} sur {{total}} chargés",
+    "dims": "Dimensions",
+    "delete": "Supprimer",
+    "deleteTitle": "Supprimer ce type de marchandise ?",
+    "deleteBody": "Supprimer « {{name}} » ? Les lettres de voiture existantes ne sont pas affectées.",
+    "fields": {
+      "name": "Nom",
+      "description": "Description"
+    },
+    "form": {
+      "createTitle": "Nouveau type de marchandise",
+      "editTitle": "Modifier le type de marchandise",
+      "description": "Valeurs par défaut pré-remplies à la sélection de ce type. Seul le nom est requis.",
+      "create": "Créer le type"
+    }
+  },
+  "dock": {
+    "title": "Stock à quai",
+    "description": "Marchandise actuellement à quai, en attente de relivraison.",
+    "empty": "Aucune marchandise à quai pour le moment.",
+    "noResults": "Aucune marchandise à quai ne correspond à vos filtres.",
+    "searchPlaceholder": "Rechercher par référence ou partie…",
+    "loadMore": "Charger plus",
+    "enteredOn": "À quai depuis le",
+    "summary": {
+      "waybills": "Lettres à quai",
+      "packages": "Colis",
+      "weight": "Poids brut",
+      "volume": "Volume"
+    },
+    "dateFilter": {
+      "label": "Entrée à quai",
+      "from": "Du",
+      "to": "Au",
+      "reset": "Effacer les dates"
+    },
+    "dwell": {
+      "since": "À quai depuis {{duration}}",
+      "stayed": "À quai {{duration}}",
+      "overdue": "Stock dormant : à quai depuis plus longtemps que prévu.",
+      "days": "{{count}} jour",
+      "days_other": "{{count}} jours",
+      "hours": "{{count}} h",
+      "hours_other": "{{count}} h",
+      "minutes": "{{count}} min",
+      "minutes_other": "{{count}} min"
+    }
+  },
+  "waybills": {
+    "title": "Lettres de voiture",
+    "description": "Gérez vos lettres de voiture CMR / eCMR.",
+    "new": "Nouvelle lettre",
+    "searchPlaceholder": "Rechercher par référence ou partie…",
+    "backToList": "Retour aux lettres de voiture",
+    "empty": "Aucune lettre de voiture pour le moment.",
+    "noResults": "Aucune lettre de voiture ne correspond aux filtres.",
+    "filters": {
+      "status": "Statut",
+      "allStatuses": "Tous les statuts",
+      "statusCount": "{{count}} statut",
+      "statusCount_other": "{{count}} statuts",
+      "sort": "Trier",
+      "archived": "Archivage",
+      "archivedActive": "Actives",
+      "archivedOnly": "Archivées",
+      "archivedAll": "Toutes"
+    },
+    "archivedBadge": "Archivée",
+    "selection": {
+      "count": "{{count}} sélectionnée",
+      "count_other": "{{count}} sélectionnées",
+      "selectAll": "Tout sélectionner",
+      "clear": "Désélectionner",
+      "actions": "Actions"
+    },
+    "bulk": {
+      "changeStatus": "Changer le statut",
+      "archive": "Archiver",
+      "unarchive": "Désarchiver",
+      "cancel": "Annuler",
+      "cancelConfirmTitle": "Annuler les lettres sélectionnées ?",
+      "cancelConfirmBody": "{{count}} lettre passera au statut Annulée. Action irréversible.",
+      "cancelConfirmBody_other": "{{count}} lettres passeront au statut Annulée. Action irréversible.",
+      "running": "Application...",
+      "successAll": "{{count}} lettre mise à jour.",
+      "successAll_other": "{{count}} lettres mises à jour.",
+      "partial": "{{succeeded}} réussie(s), {{failed}} en échec.",
+      "errorsTitle": "Échecs"
+    },
+    "view": {
+      "list": "Liste",
+      "map": "Carte"
+    },
+    "dateFilter": {
+      "today": "Aujourd'hui",
+      "date": "Date",
+      "prevDay": "Jour précédent",
+      "nextDay": "Jour suivant",
+      "reset": "Revenir à aujourd'hui",
+      "pickup": "Chargement",
+      "delivery": "Livraison"
+    },
+    "map": {
+      "display": "Afficher",
+      "pickup": "Chargement",
+      "delivery": "Livraison",
+      "both": "Les deux",
+      "notLocated": "Non localisée",
+      "noPoints": "Aucune lettre localisée pour ces filtres."
+    },
+    "sort": {
+      "newest": "Plus récentes",
+      "oldest": "Plus anciennes",
+      "reference": "Référence",
+      "pickup": "Chargement prévu",
+      "delivery": "Livraison prévue"
+    },
+    "pagination": {
+      "loadingMore": "Chargement…",
+      "loaded": "{{loaded}} sur {{total}} chargées"
+    },
+    "status": {
+      "DRAFT": "Brouillon",
+      "ISSUED": "Émise",
+      "COLLECTED": "Prise en charge",
+      "AT_DOCK": "À quai",
+      "IN_TRANSIT": "En transit",
+      "DELIVERED": "Livrée",
+      "FAILED": "Échec",
+      "CANCELLED": "Annulée"
+    },
+    "parcelStatus": {
+      "PENDING": "En attente",
+      "LOADED": "Chargé",
+      "AT_DOCK": "À quai",
+      "IN_TRANSIT": "En transit",
+      "DELIVERED": "Livré",
+      "FAILED": "Échec",
+      "CANCELLED": "Annulé"
+    },
+    "scope": {
+      "NATIONAL": "National",
+      "INTERNATIONAL": "International (CMR)"
+    },
+    "client": {
+      "title": "Donneur d'ordre",
+      "label": "Donneur d'ordre (client)",
+      "hint": "Client pour le compte duquel le transport est réalisé. Porte les frais de transport.",
+      "view": "Voir le client"
+    },
+    "signatureMethod": {
+      "DRAWN": "Manuscrite",
+      "TYPED": "Saisie",
+      "CLICKWRAP": "Clic d'acceptation"
+    },
+    "fields": {
+      "reference": "Référence",
+      "scope": "Périmètre",
+      "shipper": "Expéditeur",
+      "consignee": "Destinataire",
+      "notes": "Notes"
+    },
+    "parties": {
+      "shipper": "Expéditeur",
+      "consignee": "Destinataire",
+      "carrier": "Transporteur",
+      "mode": {
+        "client": "Client existant",
+        "free": "Saisie libre"
+      },
+      "client": "Client",
+      "clientAddress": "Adresse du client",
+      "clientAddressNone": "Aucune adresse précise",
+      "name": "Nom",
+      "namePlaceholder": "Nom de la partie",
+      "contactName": "Nom du contact",
+      "contactPhone": "Téléphone du contact",
+      "contactEmail": "Email du contact",
+      "includeCarrier": "Ajouter un transporteur"
+    },
+    "places": {
+      "takingOver": "Lieu de prise en charge",
+      "delivery": "Lieu de livraison",
+      "mode": {
+        "free": "Adresse libre",
+        "client": "Client"
+      },
+      "client": "Client",
+      "clientAddress": "Adresse du client",
+      "clientAddressNone": "Choisir une adresse",
+      "prefillFromClient": "Pré-remplir depuis une adresse du client",
+      "customAddress": "Adresse personnalisée",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "gpsHint": "Optionnel. Laissez vide pour géocoder l'adresse, ou saisissez les coordonnées si elle ne peut pas être localisée.",
+      "plannedAt": "Prévu",
+      "plannedAtTakingOver": "Enlèvement prévu le",
+      "plannedAtDelivery": "Livraison prévue le",
+      "actualAt": "Réel"
+    },
+    "goods": {
+      "title": "Marchandises",
+      "add": "Ajouter une marchandise",
+      "remove": "Supprimer",
+      "edit": "Modifier",
+      "done": "Valider",
+      "empty": "Aucune marchandise pour le moment.",
+      "untitled": "Marchandise sans nom",
+      "itemTitle": "Marchandise",
+      "dangerousShort": "ADR",
+      "description": "Description",
+      "packagingType": "Emballage",
+      "numberOfPackages": "Colis",
+      "grossWeightKg": "Poids brut (kg)",
+      "volumeM3": "Volume (m³)",
+      "lengthCm": "Longueur (cm)",
+      "widthCm": "Largeur (cm)",
+      "heightCm": "Hauteur (cm)",
+      "dimensions": "Dimensions",
+      "dangerousGoods": "Marchandise dangereuse",
+      "unNumber": "Numéro UN"
+    },
+    "cmr": {
+      "title": "Détails CMR",
+      "chargesAmount": "Montant des frais de transport",
+      "chargesCurrency": "Devise",
+      "senderInstructions": "Instructions de l'expéditeur",
+      "reservations": "Réserves et observations",
+      "attachedDocuments": "Documents joints",
+      "autoPrice": "Calculer le prix",
+      "autoPriceHint": "Calculé depuis la grille tarifaire selon la distance de l'itinéraire, le poids et les arrêts. Reste modifiable à la main.",
+      "autoPriceResult": "Calculé depuis « {{tariff}} »."
+    },
+    "form": {
+      "createTitle": "Nouvelle lettre de voiture",
+      "editTitle": "Modifier la lettre de voiture",
+      "createDescription": "Créez une lettre de voiture CMR / eCMR.",
+      "editDescription": "L'édition n'est possible qu'aux statuts Brouillon et Émise.",
+      "referencePlaceholder": "Générée automatiquement si vide",
+      "geocodingHint": "Une adresse n'a pas pu être localisée. Saisissez les coordonnées GPS du lieu concerné.",
+      "create": "Créer la lettre",
+      "back": "Retour",
+      "next": "Suivant",
+      "steps": {
+        "parties": "Parties",
+        "places": "Lieux",
+        "order": "Donneur d'ordre",
+        "shipper": "Expéditeur",
+        "consignee": "Destinataire",
+        "route": "Trajet",
+        "goods": "Marchandises",
+        "cmr": "Détails CMR"
+      }
+    },
+    "route": {
+      "title": "Trajet et horaires",
+      "description": "Aller-retour depuis votre dépôt vers l'enlèvement, puis la livraison, et retour. Renseignez l'heure d'enlèvement ou de livraison prévue pour estimer les arrivées et l'heure de départ.",
+      "compute": "Calculer le trajet",
+      "recompute": "Recalculer",
+      "schedule": "Horaire",
+      "depot": "Dépôt",
+      "leaveDepotAt": "Partir du dépôt à",
+      "noPlannedTimes": "Renseignez une heure d'enlèvement ou de livraison prévue (aux étapes précédentes) pour estimer les heures d'arrivée et de départ.",
+      "anchoredOnDelivery": "Les heures sont calculées à rebours depuis l'heure de livraison prévue.",
+      "onSchedule": "Compatible avec l'heure de livraison prévue.",
+      "late": "Estimé {{duration}} après l'heure de livraison prévue.",
+      "ahead": "Estimé {{duration}} avant l'heure de livraison prévue.",
+      "missing": {
+        "title": "Des points manquent pour calculer le trajet :",
+        "depot": "Coordonnées GPS du dépôt",
+        "pickup": "Point d'enlèvement (étape Expéditeur)",
+        "delivery": "Point de livraison (étape Destinataire)",
+        "depotHint": "Renseignez les coordonnées GPS de votre dépôt dans les paramètres de l'entreprise (adresse du dépôt)."
+      },
+      "stops": {
+        "depotDeparture": "Départ du dépôt",
+        "pickup": "Enlèvement",
+        "delivery": "Livraison",
+        "depotReturn": "Retour au dépôt"
+      }
+    },
+    "actions": {
+      "changeStatus": "Changer le statut",
+      "more": "Plus d'actions",
+      "assign": "Affecter",
+      "addSignature": "Ajouter une signature",
+      "cancel": "Annuler la lettre"
+    },
+    "statusDialog": {
+      "title": "Changer le statut",
+      "description": "Choisissez le nouveau statut de la lettre de voiture.",
+      "target": "Nouveau statut",
+      "choose": "Choisir un statut",
+      "failureReason": "Motif de l'échec",
+      "confirm": "Appliquer"
+    },
+    "parcel": {
+      "actions": "Actions du colis",
+      "changeStatus": "Changer le statut"
+    },
+    "parcelStatusDialog": {
+      "title": "Changer le statut du colis",
+      "description": "Choisissez le nouveau statut de ce colis."
+    },
+    "history": {
+      "title": "Historique de la lettre"
+    },
+    "parcelHistory": {
+      "title": "Historique du colis"
+    },
+    "signatureDialog": {
+      "title": "Ajouter une signature",
+      "description": "Enregistrez une signature eCMR.",
+      "role": "Rôle",
+      "signerName": "Nom du signataire",
+      "place": "Lieu",
+      "method": "Méthode",
+      "confirm": "Ajouter la signature"
+    },
+    "assignDialog": {
+      "title": "Affecter la lettre de voiture",
+      "description": "Rattachez cette lettre à une tournée et/ou un livreur.",
+      "tour": "Tournée",
+      "profile": "Livreur"
+    },
+    "cancelDialog": {
+      "title": "Annuler la lettre de voiture",
+      "body": "Annuler {{reference}} ? Elle passera au statut Annulée."
+    },
+    "detail": {
+      "created": "Créée le",
+      "route": "Trajet",
+      "signatures": "Signatures",
+      "noSignatures": "Aucune signature pour le moment.",
+      "proofOfDelivery": "Preuve de livraison",
+      "failureReason": "Motif de l'échec",
+      "routeHint": "Trajet non calculé. Utilisez « Recalculer le trajet » pour le tracer."
+    }
+  },
+  "tours": {
+    "title": "Tournées",
+    "description": "Regroupez les lettres de voiture en tournées de livraison.",
+    "new": "Nouvelle tournée",
+    "backToList": "Retour aux tournées",
+    "empty": "Aucune tournée pour le moment.",
+    "noResults": "Aucune tournée ne correspond aux filtres.",
+    "filters": {
+      "status": "Statut",
+      "allStatuses": "Tous les statuts",
+      "date": "Date",
+      "sort": "Trier"
+    },
+    "sort": {
+      "newest": "Plus récentes",
+      "plannedDate": "Date prévue",
+      "name": "Nom"
+    },
+    "pagination": {
+      "loadingMore": "Chargement…",
+      "loaded": "{{loaded}} sur {{total}} chargées"
+    },
+    "status": {
+      "PLANNED": "Planifiée",
+      "ASSIGNED": "Affectée",
+      "IN_PROGRESS": "En cours",
+      "COMPLETED": "Terminée",
+      "CANCELLED": "Annulée"
+    },
+    "fields": {
+      "name": "Nom",
+      "reference": "Référence",
+      "plannedDate": "Date prévue",
+      "vehicle": "Véhicule",
+      "driver": "Livreur",
+      "depot": "Dépôt",
+      "notes": "Notes"
+    },
+    "form": {
+      "createTitle": "Nouvelle tournée",
+      "editTitle": "Modifier la tournée",
+      "createDescription": "Créez une tournée de livraison.",
+      "editDescription": "Mettez à jour les informations de la tournée.",
+      "namePlaceholder": "Tournée du matin",
+      "referencePlaceholder": "Générée automatiquement si vide",
+      "create": "Créer la tournée",
+      "depotHint": "Par défaut, l'adresse de facturation de la société si laissé vide."
+    },
+    "actions": {
+      "changeStatus": "Changer le statut",
+      "more": "Plus d'actions",
+      "assign": "Affecter",
+      "cancel": "Annuler la tournée",
+      "optimize": "Optimiser",
+      "resetOrder": "Réinitialiser",
+      "saveOrder": "Enregistrer l'ordre",
+      "addWaybills": "Ajouter des lettres",
+      "addStopOnMap": "Ajouter un arrêt sur la carte"
+    },
+    "statusDialog": {
+      "title": "Changer le statut",
+      "description": "Choisissez le nouveau statut de la tournée.",
+      "target": "Nouveau statut",
+      "choose": "Choisir un statut",
+      "confirm": "Appliquer"
+    },
+    "history": {
+      "title": "Historique de la tournée"
+    },
+    "assignDialog": {
+      "title": "Affecter la tournée",
+      "description": "Affectez un véhicule et un livreur à cette tournée."
+    },
+    "addWaybills": {
+      "title": "Ajouter des lettres de voiture",
+      "description": "Choisissez les lettres à ajouter comme arrêts.",
+      "searchPlaceholder": "Rechercher une lettre de voiture…",
+      "noResults": "Aucune lettre de voiture trouvée.",
+      "add": "Ajouter",
+      "added": "Ajoutée"
+    },
+    "cancelDialog": {
+      "title": "Annuler la tournée",
+      "body": "Annuler {{name}} ? Ses lettres de voiture seront détachées."
+    },
+    "skipped": {
+      "title": "Certains arrêts ont été écartés",
+      "reason": {
+        "UNROUTABLE": "Adresse non rattachable au réseau routier",
+        "TOO_FAR": "Adresse trop éloignée du réseau routier"
+      }
+    },
+    "detail": {
+      "route": "Trajet",
+      "stops": "Arrêts",
+      "noStops": "Aucun arrêt. Ajoutez des lettres de voiture à la tournée.",
+      "previewHint": "Aperçu en temps réel du nouvel ordre, non enregistré.",
+      "removeStop": "Retirer l'arrêt",
+      "assigned": "Affecté",
+      "addStopHint": "Cliquez sur la carte pour ajouter un arrêt."
+    },
+    "quickStop": {
+      "title": "Ajouter un arrêt",
+      "description": "Créez une lettre de voiture à cet endroit et rattachez-la à la tournée.",
+      "client": "Client",
+      "consignee": "Destinataire",
+      "shipper": "Expéditeur",
+      "shipperHint": "Par défaut votre entreprise ; modifiez si besoin.",
+      "delivery": "Lieu de livraison",
+      "create": "Créer l'arrêt"
+    },
+    "searchPlaceholder": "Rechercher par nom ou référence…"
+  },
+  "pricing": {
+    "title": "Tarification",
+    "description": "Grilles tarifaires et indexation carburant de cette entreprise.",
+    "tabs": {
+      "tariffs": "Grilles tarifaires",
+      "fuel": "Prix carburant",
+      "quote": "Devis"
+    },
+    "basis": {
+      "FLAT": "Forfait",
+      "PER_KM": "Au km",
+      "PER_KG": "Au kg",
+      "PER_M3": "Au m³",
+      "PER_PACKAGE": "Au colis",
+      "PER_STOP": "Par arrêt",
+      "PER_WAYBILL": "Par lettre de voiture",
+      "PERCENT_OF_SUBTOTAL": "% du sous-total"
+    },
+    "basisUnit": {
+      "FLAT": "",
+      "PER_KM": "/km",
+      "PER_KG": "/kg",
+      "PER_M3": "/m³",
+      "PER_PACKAGE": "/colis",
+      "PER_STOP": "/arrêt",
+      "PER_WAYBILL": "/lettre",
+      "PERCENT_OF_SUBTOTAL": "%"
+    },
+    "kind": {
+      "BASE": "Base",
+      "SURCHARGE": "Supplément"
+    },
+    "status": {
+      "DRAFT": "Inactive",
+      "ACTIVE": "Active"
+    },
+    "fuelType": {
+      "DIESEL": "Gazole",
+      "PETROL": "Essence (SP95-E10)",
+      "ELECTRIC": "Électrique",
+      "HYBRID": "Hybride",
+      "PLUGIN_HYBRID": "Hybride rechargeable",
+      "LPG": "GPL",
+      "CNG": "GNV",
+      "HYDROGEN": "Hydrogène",
+      "OTHER": "Superéthanol E85"
+    },
+    "fuelMode": {
+      "THRESHOLD_COMPONENTS": "Suppléments au-dessus d'un seuil",
+      "INDEXED_PERCENT": "Pourcentage indexé"
+    },
+    "roundingMode": {
+      "HALF_UP": "Au plus proche (0,5 sup.)",
+      "HALF_EVEN": "Au pair le plus proche",
+      "UP": "Vers le haut",
+      "DOWN": "Vers le bas",
+      "CEILING": "Plafond",
+      "FLOOR": "Plancher",
+      "HALF_DOWN": "Au plus proche (0,5 inf.)",
+      "UNNECESSARY": "Aucun arrondi"
+    },
+    "tariffs": {
+      "new": "Nouvelle grille",
+      "empty": "Aucune grille tarifaire. Créez-en une pour tarifer automatiquement.",
+      "noResults": "Aucune grille ne correspond à ces filtres.",
+      "defaultBadge": "Par défaut",
+      "clientBound": "Grille client",
+      "companyWide": "Grille société",
+      "validAlways": "Sans limite de validité",
+      "validFrom": "À partir du {{date}}",
+      "validUntil": "Jusqu'au {{date}}",
+      "validRange": "Du {{from}} au {{to}}",
+      "componentsCount": "{{count}} ligne",
+      "componentsCount_other": "{{count}} lignes",
+      "hasFuel": "Supplément carburant",
+      "filters": {
+        "status": "Statut",
+        "allStatuses": "Tous les statuts",
+        "client": "Client",
+        "allClients": "Toutes les grilles",
+        "companyOnly": "Grilles société par défaut",
+        "sort": "Tri"
+      },
+      "sort": {
+        "newest": "Plus récentes",
+        "oldest": "Plus anciennes",
+        "nameAsc": "Nom (A-Z)",
+        "nameDesc": "Nom (Z-A)"
+      }
+    },
+    "form": {
+      "createTitle": "Nouvelle grille tarifaire",
+      "editTitle": "Modifier la grille",
+      "createDescription": "Créez une grille brouillon, ajoutez des lignes puis activez-la.",
+      "editDescription": "Modifiez les paramètres de la grille.",
+      "create": "Créer la grille",
+      "name": "Nom",
+      "namePlaceholder": "Standard national 2026",
+      "description": "Description",
+      "descriptionPlaceholder": "Grille par défaut des envois nationaux",
+      "currency": "Devise",
+      "isDefault": "Grille société par défaut",
+      "isDefaultHint": "Utilisée quand aucune grille client ne s'applique. Une grille par défaut ne peut pas être liée à un client.",
+      "client": "Client",
+      "clientHint": "Lier la grille à un client précis. Laisser vide pour une grille société.",
+      "validFrom": "Valide à partir du",
+      "validUntil": "Valide jusqu'au",
+      "roundingMode": "Mode d'arrondi",
+      "roundingScale": "Décimales d'arrondi",
+      "minChargeAmount": "Minimum de perception",
+      "minChargeHint": "Plancher appliqué au total général."
+    },
+    "detail": {
+      "back": "Retour à la tarification",
+      "notFound": "Cette grille n'existe plus.",
+      "settings": "Paramètres de la grille",
+      "edit": "Modifier",
+      "activate": "Activer",
+      "deactivate": "Désactiver",
+      "delete": "Supprimer",
+      "deleteTitle": "Supprimer cette grille ?",
+      "deleteBody": "La grille « {{name}} », ses lignes et sa politique carburant seront supprimées.",
+      "deleteAlternative": "Préférez la désactivation pour conserver la grille et la réactiver plus tard.",
+      "activateHint": "Seule une grille active est utilisée pour le calcul.",
+      "currency": "Devise",
+      "rounding": "Arrondi",
+      "minCharge": "Minimum de perception",
+      "validity": "Validité",
+      "createdAt": "Créée le {{date}}",
+      "updatedAt": "modifiée le {{date}}",
+      "components": "Lignes facturables",
+      "componentsHint": "Les lignes sont appliquées dans l'ordre pour bâtir le sous-total.",
+      "addComponent": "Ajouter une ligne",
+      "noComponents": "Aucune ligne. Ajoutez-en au moins une pour tarifer.",
+      "fuel": "Supplément carburant",
+      "fuelHint": "Ajoutez éventuellement un supplément carburant sur le sous-total.",
+      "fuelNone": "Aucune politique carburant sur cette grille.",
+      "fuelConfigure": "Configurer le supplément carburant",
+      "fuelEdit": "Modifier la politique",
+      "fuelRemove": "Supprimer la politique",
+      "fuelRemoveTitle": "Supprimer la politique carburant ?",
+      "fuelRemoveBody": "Le supplément carburant ne s'appliquera plus à cette grille.",
+      "fuelEnabled": "Activée",
+      "fuelDisabled": "Désactivée",
+      "fuelThreshold": "Seuil",
+      "fuelReference": "Prix de référence",
+      "fuelDieselShare": "Part gazole",
+      "fuelClampAtZero": "Plancher à zéro",
+      "fuelSource": "Source",
+      "fuelSurchargeLines": "Lignes de supplément"
+    },
+    "component": {
+      "addTitle": "Ajouter une ligne",
+      "editTitle": "Modifier la ligne",
+      "add": "Ajouter la ligne",
+      "label": "Libellé",
+      "labelPlaceholder": "Distance",
+      "basis": "Base de facturation",
+      "unitPrice": "Prix unitaire",
+      "unitPricePercentHint": "Pourcentage du sous-total.",
+      "includedQuantity": "Quantité incluse",
+      "includedQuantityHint": "Franchise offerte avant facturation.",
+      "minQuantity": "Quantité min",
+      "maxQuantity": "Quantité max",
+      "minAmount": "Montant min",
+      "maxAmount": "Montant max",
+      "position": "Position",
+      "deleteTitle": "Supprimer cette ligne ?",
+      "deleteBody": "La ligne « {{label}} » sera retirée de la grille.",
+      "advanced": "Bornes (optionnel)"
+    },
+    "fuelPolicy": {
+      "title": "Supplément carburant",
+      "description": "Appliquer un supplément indexé sur le prix gazole gouvernemental.",
+      "enabled": "Activer le supplément carburant",
+      "fuelType": "Type de carburant",
+      "mode": "Mode",
+      "thresholdPrice": "Prix seuil (€/L)",
+      "thresholdHint": "Les suppléments s'appliquent quand le prix dépasse cette valeur.",
+      "referencePrice": "Prix de référence (€/L)",
+      "referenceHint": "Prix de base du pourcentage indexé.",
+      "dieselShareRatio": "Part gazole (0-1)",
+      "dieselShareHint": "Part du prix exposée au carburant, ex. 0,30.",
+      "clampAtZero": "Plancher du supplément à zéro",
+      "clampAtZeroHint": "Pas de remise si le prix baisse sous la référence.",
+      "sourceFilter": "Source (optionnel)",
+      "sourcePlaceholder": "data.economie.gouv.fr",
+      "surchargeComponents": "Lignes de supplément",
+      "surchargeHint": "Lignes ajoutées au-dessus du seuil (au km, au kg, etc.).",
+      "addSurcharge": "Ajouter une ligne de supplément",
+      "noSurcharge": "Aucune ligne de supplément.",
+      "save": "Enregistrer la politique"
+    },
+    "fuelPrices": {
+      "title": "Index des prix carburant",
+      "description": "Dernier prix gouvernemental et historique.",
+      "current": "Prix courant",
+      "noIndex": "Aucun prix stocké. Rafraîchissez pour récupérer le dernier index.",
+      "refresh": "Rafraîchir",
+      "refreshed": "{{count}} prix ingéré depuis {{source}}.",
+      "refreshed_other": "{{count}} prix ingérés depuis {{source}}.",
+      "fuelType": "Type de carburant",
+      "referenceDate": "Date de référence",
+      "source": "Source",
+      "fetchedAt": "Récupéré",
+      "price": "Prix",
+      "history": "Historique",
+      "historyEmpty": "Aucun prix sur cette période.",
+      "from": "Du",
+      "to": "Au"
+    },
+    "quote": {
+      "title": "Devis",
+      "description": "Estimer un prix à partir de quantités ad-hoc, sans enregistrer.",
+      "tariff": "Forcer une grille (optionnel)",
+      "tariffAuto": "Résolution automatique",
+      "client": "Client (optionnel)",
+      "distanceKm": "Distance (km)",
+      "totalWeightKg": "Poids total (kg)",
+      "totalVolumeM3": "Volume total (m³)",
+      "packageCount": "Colis",
+      "stopCount": "Arrêts",
+      "estimate": "Estimer",
+      "empty": "Construisez un itinéraire ou saisissez des quantités pour voir le prix.",
+      "noTariff": "Aucune grille résolue. Activez une grille par défaut ou choisissez une grille client.",
+      "updating": "Mise à jour...",
+      "distanceManual": "Manuel",
+      "distanceFromRoute": "Depuis l'itinéraire",
+      "distanceFromRouteHint": "Construisez un itinéraire sur la carte pour calculer la distance.",
+      "distanceComputed": "{{km}} km depuis l'itinéraire."
+    },
+    "breakdown": {
+      "line": "Ligne",
+      "basis": "Base",
+      "quantity": "Qté",
+      "unitPrice": "Prix unitaire",
+      "lineTotal": "Total",
+      "subtotal": "Sous-total",
+      "surchargeTotal": "Suppléments",
+      "total": "Total",
+      "fuelPriceUsed": "Prix carburant retenu",
+      "fuelReferenceDate": "Date de référence",
+      "grid": "Grille",
+      "warningsTitle": "Avertissements",
+      "editUnitPrice": "Cliquez pour modifier ce prix pour l'estimation",
+      "resetUnitPrice": "Revenir au prix de la grille",
+      "overrideNote": "Prix modifiés pour cette estimation uniquement ; la grille n'est pas modifiée."
+    },
+    "warnings": {
+      "error.pricing.route-not-computed": "Itinéraire non calculé : les lignes au km sont facturées à 0."
+    },
+    "waybillCard": {
+      "title": "Tarification",
+      "current": "Frais de transport",
+      "notSet": "Aucun prix défini.",
+      "recalculate": "Calculer le tarif",
+      "recalculated": "Tarif recalculé et enregistré.",
+      "notApplicable": "La tarification est indisponible pour une lettre de voiture annulée.",
+      "manualHint": "Vous pouvez aussi saisir le montant manuellement en modifiant la lettre.",
+      "viewBreakdown": "Voir le détail",
+      "hideBreakdown": "Masquer le détail",
+      "lastQuote": "Dernier calcul"
+    },
+    "route": {
+      "title": "Distance depuis un itinéraire",
+      "description": "Ajoutez des adresses ou points GPS pour calculer la distance automatiquement.",
+      "modeRoute": "Lettre de voiture",
+      "modeTour": "Tournée",
+      "useDepot": "Partir et revenir du dépôt",
+      "points": "Points (dans l’ordre)",
+      "stops": "Arrêts",
+      "pointsHint": "Cliquez sur la carte, recherchez une adresse ou choisissez un client.",
+      "waybillHint": "Expéditeur et destinataire : cliquez sur la carte, recherchez une adresse ou choisissez un client.",
+      "optimize": "Optimiser l'ordre",
+      "pointLabel": "Point {{n}}",
+      "stopLabel": "Arrêt {{n}}",
+      "shipperLabel": "Expéditeur",
+      "consigneeLabel": "Destinataire",
+      "addPoint": "Ajouter un point",
+      "addStop": "Ajouter un arrêt",
+      "addAddress": "Ajouter une adresse",
+      "addClient": "Ajouter un client",
+      "removePoint": "Supprimer ce point",
+      "pointKindAddress": "Adresse",
+      "pointKindClient": "Client",
+      "clientAddress": "Adresse",
+      "clientNoCoords": "Cette adresse client n'a pas de coordonnées GPS.",
+      "pointFromMap": "Point posé sur la carte ({{lat}}, {{lon}})",
+      "searchPlaceholder": "Rechercher une adresse pour ajouter un point",
+      "compute": "Calculer la distance",
+      "recompute": "Recalculer",
+      "needPoints": "Ajoutez au moins deux points localisés.",
+      "needTour": "Ajoutez le dépôt et au moins un arrêt localisé.",
+      "tourNeedsDepot": "Une tournée optimisée nécessite le dépôt comme point de départ.",
+      "applied": "Distance appliquée à l’estimation :"
+    }
+  }
+}
