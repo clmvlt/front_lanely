@@ -1,0 +1,46 @@
+# Dépendances
+node_modules
+.pnp
+.pnp.js
+
+# Build
+dist
+dist-ssr
+*.local
+
+# ---------------------------------------------------------------------------
+# Environnements
+#
+# Les fichiers de config par environnement SONT versionnés (ils ne contiennent
+# que des URLs d'API publiques, pas de secret) :
+#   .env.development  .env.beta  .env.demo  .env.production  .env.example
+#
+# Les overrides LOCAUX (secrets, surcharges machine) ne le sont PAS :
+.env
+.env.*.local
+.env.local
+# ---------------------------------------------------------------------------
+
+# Script de déploiement (contient des secrets SSH — ne jamais versionner)
+# requirements.txt reste versionné (aucun secret)
+deploy
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Éditeurs / OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
