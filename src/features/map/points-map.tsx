@@ -5,7 +5,7 @@ import "./mapbox-overrides.css"
 import { Loader2, Map as MapIcon } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { neutral } from "@/lib/colors"
-import { mapboxgl } from "./setup"
+import { isMapConfigured, mapboxgl } from "./setup"
 import { useMap } from "./use-map"
 import { createMarkerElement, markerAnchor, resolveMarkerStyle } from "./markers"
 import type { MapPoint } from "./types"
@@ -72,11 +72,13 @@ export function PointsMap({
   onHover,
   onSelect,
   loading,
-  unavailable,
+  unavailable: unavailableProp,
   emptyLabel,
   className,
 }: PointsMapProps) {
   const { t } = useTranslation()
+  // Jeton Mapbox absent -> mode dégradé (cf. `isMapConfigured`).
+  const unavailable = unavailableProp || !isMapConfigured
   const { containerRef, mapRef, ready } = useMap({ enabled: !unavailable })
   const trackedRef = useRef<TrackedMarker[]>([])
 

@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils"
 import { brand, neutral } from "@/lib/colors"
 import { decodePolyline } from "@/lib/polyline"
 import { formatDistance, formatDuration } from "@/lib/units"
-import { mapboxgl } from "./setup"
+import { isMapConfigured, mapboxgl } from "./setup"
 import { useMap } from "./use-map"
 import { createMarkerElement, markerAnchor, resolveMarkerStyle } from "./markers"
 import type { MapPoint } from "./types"
@@ -56,11 +56,13 @@ export function RouteMap({
   markers = [],
   distanceMeters,
   durationSeconds,
-  unavailable,
+  unavailable: unavailableProp,
   loading,
   className,
 }: RouteMapProps) {
   const { t } = useTranslation()
+  // Jeton Mapbox absent -> mode dégradé (cf. `isMapConfigured`).
+  const unavailable = unavailableProp || !isMapConfigured
   const { containerRef, mapRef, ready } = useMap({ enabled: !unavailable })
   const markersRef = useRef<mapboxgl.Marker[]>([])
 

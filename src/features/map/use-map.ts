@@ -1,5 +1,11 @@
 import { useEffect, useRef, useState } from "react"
-import { DEFAULT_CENTER, DEFAULT_ZOOM, MAP_STYLE, mapboxgl } from "./setup"
+import {
+  DEFAULT_CENTER,
+  DEFAULT_ZOOM,
+  MAP_STYLE,
+  isMapConfigured,
+  mapboxgl,
+} from "./setup"
 
 export interface UseMapOptions {
   /** Centre initial [lon, lat]. Défaut : France métropolitaine. */
@@ -36,7 +42,10 @@ export function useMap(options: UseMapOptions = {}) {
   })
 
   useEffect(() => {
-    if (!enabled || !containerRef.current || mapRef.current) return
+    // Sans jeton, `new mapboxgl.Map` lève une erreur non capturée : on ne crée
+    // pas la carte (mode dégradé géré par les composants via `isMapConfigured`).
+    if (!enabled || !isMapConfigured || !containerRef.current || mapRef.current)
+      return
     const map = new mapboxgl.Map({
       container: containerRef.current,
       style: MAP_STYLE,

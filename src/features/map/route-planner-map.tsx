@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils"
 import { brand } from "@/lib/colors"
 import { decodePolyline } from "@/lib/polyline"
 import { formatDistance, formatDuration } from "@/lib/units"
-import { mapboxgl } from "./setup"
+import { isMapConfigured, mapboxgl } from "./setup"
 import { useMap } from "./use-map"
 import { createMarkerElement, markerAnchor, resolveMarkerStyle } from "./markers"
 import { MapSearchOverlay } from "./map-search-overlay"
@@ -78,11 +78,13 @@ export function RoutePlannerMap({
   onDeletePoint,
   search,
   loading,
-  unavailable,
+  unavailable: unavailableProp,
   hint,
   className,
 }: RoutePlannerMapProps) {
   const { t } = useTranslation()
+  // Jeton Mapbox absent -> mode dégradé (cf. `isMapConfigured`).
+  const unavailable = unavailableProp || !isMapConfigured
   const trackedRef = useRef<TrackedMarker[]>([])
   // Un changement issu d'une interaction carte (clic/glisser) ne doit pas
   // déclencher de recadrage (la vue est déjà bonne). Cf. location-picker-map.

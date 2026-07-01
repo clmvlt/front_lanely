@@ -8,6 +8,19 @@ import { config } from "@/lib/config"
  */
 mapboxgl.accessToken = config.mapboxToken
 
+/**
+ * true si un jeton Mapbox est configuré. Sans jeton, Mapbox GL lève une erreur
+ * à la création de la carte : les composants basculent alors en mode dégradé
+ * (`map.unavailable`) plutôt que de planter le rendu.
+ */
+export const isMapConfigured = Boolean(config.mapboxToken)
+
+if (!isMapConfigured) {
+  console.warn(
+    "[map] VITE_MAPBOX_TOKEN est vide - les cartes s'affichent en mode dégradé. Renseignez le jeton dans le fichier .env du mode courant.",
+  )
+}
+
 export { mapboxgl }
 
 /** Style Mapbox commun à toutes les cartes du produit. */

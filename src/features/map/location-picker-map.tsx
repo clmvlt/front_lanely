@@ -4,7 +4,7 @@ import "mapbox-gl/dist/mapbox-gl.css"
 import "./mapbox-overrides.css"
 import { MapPin } from "lucide-react"
 import { cn } from "@/lib/utils"
-import { mapboxgl } from "./setup"
+import { isMapConfigured, mapboxgl } from "./setup"
 import { useMap } from "./use-map"
 import { createMarkerElement, markerAnchor, resolveMarkerStyle } from "./markers"
 import type { MarkerStyle, MarkerTone } from "./markers"
@@ -123,6 +123,19 @@ export function LocationPickerMap({
       map.easeTo({ center: lngLat, duration: 400 })
     }
   }, [latitude, longitude, hasCoord, disabled, tone, markerStyle, ready, mapRef])
+
+  if (!isMapConfigured) {
+    return (
+      <div
+        className={cn(
+          "flex min-h-56 items-center justify-center rounded-lg border bg-muted/30 p-6 text-center",
+          className,
+        )}
+      >
+        <p className="text-sm text-muted-foreground">{t("map.unavailable")}</p>
+      </div>
+    )
+  }
 
   return (
     <div className={cn("relative overflow-hidden rounded-lg border", className)}>
